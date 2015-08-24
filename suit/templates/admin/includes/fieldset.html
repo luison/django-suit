@@ -48,7 +48,7 @@
 
         {# For single field errors#}
         {% if singlefield and line.errors %}
-            <span class="help-inline">{{ line.errors }}</span>
+            <span class="help-block">{{ line.errors }}</span>
         {% endif %}
 
         {# For multi field errors #}
@@ -57,7 +57,7 @@
         {% endif %}
 
         {% if field.field.help_text %}
-          <span class="{% if line.errors or field.errors or not singlefield %}help-block{% else %}help-inline{% endif %}">{{ field.field.help_text|safe }}</span>
+          <span class="{% if line.errors or field.errors or not singlefield %}help-block{% else %}help-block{% endif %}">{{ field.field.help_text|safe }}</span>
         {% endif %}
 
         {% if not field.is_readonly and field.errors %}</div>{% endif %}

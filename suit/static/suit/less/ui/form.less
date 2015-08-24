@@ -114,6 +114,7 @@ h2.legend, .form-horizontal fieldset .legend {
             border-bottom: 1px solid @border-color-light;
             width: auto;
             label {
+                font-weight: normal;
                 padding: 0;
                 margin: 0;
             }
@@ -126,7 +127,7 @@ h2.legend, .form-horizontal fieldset .legend {
             border-left: 1px solid #ecedee;
             padding: 5px 15px;
             width: 100%;
-            line-height: 26px;
+            //line-height: 26px;
             p {
                 margin-bottom: 0;
             }
@@ -696,4 +697,28 @@ h3 {
 {
     opacity: .15 !important;
     cursor: default;
+}
+
+
+/* styles to adapt bootstrap3 to old bootstrap 2 behaviour */
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  padding: 4px 4px 4px 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }

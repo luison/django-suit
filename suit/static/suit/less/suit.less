@@ -29,6 +29,9 @@
 body {
     background-color: @bgcolor;
     min-width: 960px;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
     &.popup {
         min-width: inherit;
     }
@@ -190,7 +193,8 @@ a.append-icon i {
 }
 #suit-left {
     width: @left-column-width; /* LC width */
-    right: (@left-column-width + @cc-padding); /* LC fullwidth + CC padding */
+   //right: (@left-column-width + @cc-padding); /* LC fullwidth + CC padding */
+    right: (@left-column-width); /* LC fullwidth + CC padding */
     margin-left: -100%;
 }
 #suit-right {
@@ -202,5 +206,16 @@ a.append-icon i {
 #push {
     clear: both;
 }
+
+/* styles to adapt bootstrap3 to old bootstrap 2 behaviour */
+
+.help-block {
+    // @todo
+    //display: inline-block;
+    //margin-bottom: 0;
+    //vertical-align: middle;
+}
+
+
 
 @import 'print';
