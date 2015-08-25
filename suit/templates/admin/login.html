@@ -40,11 +40,11 @@
             <h1><i class="icon-lock icon-white"></i> {{ 'ADMIN_NAME'|suit_conf }}</h1>
 
             <form action="{{ app_path }}" method="post" id="login-form"><div class="hide">{% csrf_token %}</div>
-                <div class="form-row control-group{% if not form.this_is_the_login_form.errors and form.username.errors %} error{% endif %}">
+                <div class="form-row form-group{% if not form.this_is_the_login_form.errors and form.username.errors %} error{% endif %}">
                     <label for="id_username" class="control-label required">{{ form.username.label }}:</label> {{ form.username }}
                   {% if not form.this_is_the_login_form.errors and form.username.errors %}<div class="help-block">{{ form.username.errors }}</div>{% endif %}
                 </div>
-                <div class="form-row control-group{% if not form.this_is_the_login_form.errors and form.password.errors %} error{% endif %}">
+                <div class="form-row form-group{% if not form.this_is_the_login_form.errors and form.password.errors %} error{% endif %}">
                     <label for="id_password" class="control-label required">{% trans 'Password' %}:</label> {{ form.password }}
                   {% if not form.this_is_the_login_form.errors and form.password.errors %}<div class="help-block">{{ form.password.errors }}</div>{% endif %}
                     <input type="hidden" name="this_is_the_login_form" value="1"/>

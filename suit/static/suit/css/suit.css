@@ -892,7 +892,7 @@ h2.legend,
 .form-horizontal fieldset.full-width {
   box-shadow: none;
 }
-.form-horizontal fieldset.full-width .control-group {
+.form-horizontal fieldset.full-width .form-group {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -911,14 +911,14 @@ h2.legend,
   width: 100%;
   display: block;
 }
-.form-horizontal fieldset.full-width .control-group > div {
+.form-horizontal fieldset.full-width .form-group > div {
   display: block;
 }
-.form-horizontal fieldset.full-width .control-group .control-label {
+.form-horizontal fieldset.full-width .form-group .control-label {
   display: none;
   width: 0;
 }
-.form-horizontal fieldset.full-width .control-group .controls {
+.form-horizontal fieldset.full-width .form-group .controls {
   display: block;
   margin: 0;
   padding: 0;
@@ -940,7 +940,7 @@ h2.legend,
   -moz-border-radius-bottomright: 2px;
   border-bottom-right-radius: 2px;
 }
-.form-horizontal fieldset.full-width .control-group .controls .html-widget {
+.form-horizontal fieldset.full-width .form-group .controls .html-widget {
   display: inline-block;
   margin: 10px;
 }
@@ -962,17 +962,17 @@ h2.legend,
 .form-horizontal .submit-row-bottom {
   margin: 20px 0 0 200px;
 }
-.form-horizontal .control-group {
+.form-horizontal .form-group {
   display: table-header-group;
   margin: 0;
   /* Some BS form global overrides */
   /* Inline forms fields */
 }
-.form-horizontal .control-group > div {
+.form-horizontal .form-group > div {
   display: table-row;
   width: 100%;
 }
-.form-horizontal .control-group .control-label {
+.form-horizontal .form-group .control-label {
   background: white;
   display: table-cell;
   min-width: 150px;
@@ -981,12 +981,12 @@ h2.legend,
   border-bottom: 1px solid #ededed;
   width: auto;
 }
-.form-horizontal .control-group .control-label label {
+.form-horizontal .form-group .control-label label {
   font-weight: normal;
   padding: 0;
   margin: 0;
 }
-.form-horizontal .control-group .controls {
+.form-horizontal .form-group .controls {
   display: table-cell;
   vertical-align: top;
   float: none;
@@ -995,16 +995,16 @@ h2.legend,
   padding: 5px 15px;
   width: 100%;
 }
-.form-horizontal .control-group .controls p {
+.form-horizontal .form-group .controls p {
   margin-bottom: 0;
 }
-.form-horizontal .control-group .controls .readonly {
+.form-horizontal .form-group .controls .readonly {
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
 }
-.form-horizontal .control-group:first-child .control-label,
-.form-horizontal .control-group:first-of-type .control-label {
+.form-horizontal .form-group:first-child .control-label,
+.form-horizontal .form-group:first-of-type .control-label {
   padding-top: 15px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -1013,8 +1013,8 @@ h2.legend,
   -moz-border-radius-topleft: 2px;
   border-top-left-radius: 2px;
 }
-.form-horizontal .control-group:first-child .controls,
-.form-horizontal .control-group:first-of-type .controls {
+.form-horizontal .form-group:first-child .controls,
+.form-horizontal .form-group:first-of-type .controls {
   padding-top: 10px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -1023,8 +1023,8 @@ h2.legend,
   -moz-border-radius-topright: 2px;
   border-top-right-radius: 2px;
 }
-.form-horizontal .control-group:last-child .control-label,
-.form-horizontal .control-group:last-of-type .control-label {
+.form-horizontal .form-group:last-child .control-label,
+.form-horizontal .form-group:last-of-type .control-label {
   padding-bottom: 10px;
   border: 0;
   -moz-background-clip: padding;
@@ -1034,8 +1034,8 @@ h2.legend,
   -moz-border-radius-bottomleft: 2px;
   border-bottom-left-radius: 2px;
 }
-.form-horizontal .control-group:last-child .controls,
-.form-horizontal .control-group:last-of-type .controls {
+.form-horizontal .form-group:last-child .controls,
+.form-horizontal .form-group:last-of-type .controls {
   padding-bottom: 10px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -1044,103 +1044,103 @@ h2.legend,
   -moz-border-radius-bottomright: 2px;
   border-bottom-right-radius: 2px;
 }
-.form-horizontal .control-group .help-block,
-.form-horizontal .control-group .help-inline {
+.form-horizontal .form-group .help-block,
+.form-horizontal .form-group .help-inline {
   font-size: 11px;
   color: #999;
   line-height: normal;
 }
-.form-horizontal .control-group .help-inline ul,
-.form-horizontal .control-group .radiolist {
+.form-horizontal .form-group .help-inline ul,
+.form-horizontal .form-group .radiolist {
   margin: 0;
 }
-.form-horizontal .control-group .help-inline ul li,
-.form-horizontal .control-group .radiolist li {
+.form-horizontal .form-group .help-inline ul li,
+.form-horizontal .form-group .radiolist li {
   list-style: none;
   padding: 0 10px 0 0;
 }
-.form-horizontal .control-group .help-icon {
+.form-horizontal .form-group .help-icon {
   margin: 1px 0 0 5px;
 }
-.form-horizontal .control-group .field-box .controls label {
+.form-horizontal .form-group .field-box .controls label {
   float: left;
   display: inline-block;
   margin: 5px 10px 0 0;
 }
-.form-horizontal .control-group .field-box .controls label.required {
+.form-horizontal .form-group .field-box .controls label.required {
   margin-right: 15px;
 }
-.form-horizontal .control-group .field-box .controls .multi-field-box {
+.form-horizontal .form-group .field-box .controls .multi-field-box {
   margin-top: 5px;
   float: left;
   margin-right: 15px;
 }
-.form-horizontal .control-group .field-box .controls .multi-field-box .multi-field-controls {
+.form-horizontal .form-group .field-box .controls .multi-field-box .multi-field-controls {
   float: left;
 }
-.form-horizontal .control-group .field-box .controls .multi-field-box .help-block {
+.form-horizontal .form-group .field-box .controls .multi-field-box .help-block {
   display: block;
   margin: 3px 0 0 5px;
 }
-.form-horizontal .control-group .field-box .controls .error .control-label,
-.form-horizontal .control-group .field-box .controls .error .help-block,
-.form-horizontal .control-group .field-box .controls .error .help-inline,
-.form-horizontal .control-group .field-box .controls .error .help-inline ul li,
-.form-horizontal .control-group .field-box .controls .error.multi-field-box label {
+.form-horizontal .form-group .field-box .controls .error .control-label,
+.form-horizontal .form-group .field-box .controls .error .help-block,
+.form-horizontal .form-group .field-box .controls .error .help-inline,
+.form-horizontal .form-group .field-box .controls .error .help-inline ul li,
+.form-horizontal .form-group .field-box .controls .error.multi-field-box label {
   color: #b94a48;
 }
-.form-horizontal .control-group .field-box .controls .error input,
-.form-horizontal .control-group .field-box .controls .error select,
-.form-horizontal .control-group .field-box .controls .error textarea {
+.form-horizontal .form-group .field-box .controls .error input,
+.form-horizontal .form-group .field-box .controls .error select,
+.form-horizontal .form-group .field-box .controls .error textarea {
   border-color: #b94a48;
   color: #b94a48;
 }
-.form-horizontal .control-group .field-box .controls:not(:first-child) .control-label {
+.form-horizontal .form-group .field-box .controls:not(:first-child) .control-label {
   width: auto;
   margin-left: 10px;
 }
-.form-horizontal .control-group .field-box .controls:not(:first-child) .controls {
+.form-horizontal .form-group .field-box .controls:not(:first-child) .controls {
   float: left;
   margin-left: 10px;
 }
-.form-horizontal .control-group.first-error .control-label {
+.form-horizontal .form-group.first-error .control-label {
   color: #b94a48;
 }
-.form-horizontal .control-group.multi-field-row .controls {
+.form-horizontal .form-group.multi-field-row .controls {
   padding-top: 0px;
 }
-.form-horizontal .control-group.multi-field-row:first-child .controls,
-.form-horizontal .control-group.multi-field-row:first-of-type .controls {
+.form-horizontal .form-group.multi-field-row:first-child .controls,
+.form-horizontal .form-group.multi-field-row:first-of-type .controls {
   padding-top: 5px;
 }
 .popup .one-column {
   padding-top: 10px;
 }
-.control-group .add-another,
+.form-group .add-another,
 .inline-group .add-another {
   text-decoration: none;
   display: inline-block;
   padding: 0 0 0 8px;
 }
-.control-group .related-widget-wrapper-link.change-related,
+.form-group .related-widget-wrapper-link.change-related,
 .inline-group .related-widget-wrapper-link.change-related,
-.control-group .related-widget-wrapper-link.change-related:hover,
+.form-group .related-widget-wrapper-link.change-related:hover,
 .inline-group .related-widget-wrapper-link.change-related:hover {
   opacity: .2;
 }
-.control-group .related-widget-wrapper-link.change-related:link,
+.form-group .related-widget-wrapper-link.change-related:link,
 .inline-group .related-widget-wrapper-link.change-related:link {
   opacity: .6;
 }
-.control-group .related-widget-wrapper-link.change-related:link:hover,
+.form-group .related-widget-wrapper-link.change-related:link:hover,
 .inline-group .related-widget-wrapper-link.change-related:link:hover {
   opacity: 1;
 }
-.control-group .add-related,
+.form-group .add-related,
 .inline-group .add-related,
-.control-group .related-lookup,
+.form-group .related-lookup,
 .inline-group .related-lookup,
-.control-group .change-related,
+.form-group .change-related,
 .inline-group .change-related {
   text-indent: 200%;
   white-space: nowrap;
@@ -1158,35 +1158,31 @@ h2.legend,
   padding-left: 6px;
   vertical-align: middle;
 }
-.control-group .add-related:hover,
+.form-group .add-related:hover,
 .inline-group .add-related:hover,
-.control-group .related-lookup:hover,
+.form-group .related-lookup:hover,
 .inline-group .related-lookup:hover,
-.control-group .change-related:hover,
+.form-group .change-related:hover,
 .inline-group .change-related:hover {
   opacity: 1;
 }
-.control-group .add-related img,
+.form-group .add-related img,
 .inline-group .add-related img,
-.control-group .related-lookup img,
+.form-group .related-lookup img,
 .inline-group .related-lookup img,
-.control-group .change-related img,
+.form-group .change-related img,
 .inline-group .change-related img {
   display: none;
 }
-.control-group .add-related,
-.inline-group .add-related {
-  background-position: 1px -92px;
-}
-.control-group .related-lookup,
+.form-group .related-lookup,
 .inline-group .related-lookup {
   background-position: -42px 4px;
 }
-.control-group .change-related,
+.form-group .change-related,
 .inline-group .change-related {
   background-position: 7px -68px;
 }
-.control-group .vForeignKeyRawIdAdminField,
+.form-group .vForeignKeyRawIdAdminField,
 .inline-group .vForeignKeyRawIdAdminField {
   width: 90px;
 }
@@ -1269,8 +1265,8 @@ h3 {
   border-top-right-radius: 0;
   margin: 40px 0 0 0;
 }
-.form-horizontal .inline-related fieldset:first-of-type .control-group:first-child,
-.form-horizontal .inline-related fieldset:first-of-type .control-group:first-of-type {
+.form-horizontal .inline-related fieldset:first-of-type .form-group:first-child,
+.form-horizontal .inline-related fieldset:first-of-type .form-group:first-of-type {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -1287,8 +1283,8 @@ h3 {
   -moz-border-radius-bottomright: 0;
   border-bottom-right-radius: 0;
 }
-.form-horizontal .inline-related fieldset:first-of-type .control-group:first-child .control-label,
-.form-horizontal .inline-related fieldset:first-of-type .control-group:first-of-type .control-label {
+.form-horizontal .inline-related fieldset:first-of-type .form-group:first-child .control-label,
+.form-horizontal .inline-related fieldset:first-of-type .form-group:first-of-type .control-label {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -1296,8 +1292,8 @@ h3 {
   -moz-border-radius-topleft: 0;
   border-top-left-radius: 0;
 }
-.form-horizontal .inline-related fieldset:first-of-type .control-group:first-child .controls,
-.form-horizontal .inline-related fieldset:first-of-type .control-group:first-of-type .controls {
+.form-horizontal .inline-related fieldset:first-of-type .form-group:first-child .controls,
+.form-horizontal .inline-related fieldset:first-of-type .form-group:first-of-type .controls {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -1381,59 +1377,59 @@ h3 {
   margin-bottom: 5px;
   font-size: 11px;
 }
-.form-horizontal .inline-related.tabular table td.control-group {
+.form-horizontal .inline-related.tabular table td.form-group {
   display: table-cell;
 }
-.form-horizontal .control-group .controls .selector {
+.form-horizontal .form-group .controls .selector {
   overflow: auto;
 }
-.form-horizontal .control-group .controls .selector .selector-available,
-.form-horizontal .control-group .controls .selector .selector-chooser,
-.form-horizontal .control-group .controls .selector .selector-chosen {
+.form-horizontal .form-group .controls .selector .selector-available,
+.form-horizontal .form-group .controls .selector .selector-chooser,
+.form-horizontal .form-group .controls .selector .selector-chosen {
   float: left;
 }
-.form-horizontal .control-group .controls .selector .selector-available h2,
-.form-horizontal .control-group .controls .selector .selector-chooser h2,
-.form-horizontal .control-group .controls .selector .selector-chosen h2 {
+.form-horizontal .form-group .controls .selector .selector-available h2,
+.form-horizontal .form-group .controls .selector .selector-chooser h2,
+.form-horizontal .form-group .controls .selector .selector-chosen h2 {
   margin-left: 5px;
   font-size: 12px;
 }
-.form-horizontal .control-group .controls .selector .selector-available > a,
-.form-horizontal .control-group .controls .selector .selector-chooser > a,
-.form-horizontal .control-group .controls .selector .selector-chosen > a {
+.form-horizontal .form-group .controls .selector .selector-available > a,
+.form-horizontal .form-group .controls .selector .selector-chooser > a,
+.form-horizontal .form-group .controls .selector .selector-chosen > a {
   margin-left: 5px;
 }
-.form-horizontal .control-group .controls .selector.stacked .selector-available,
-.form-horizontal .control-group .controls .selector.stacked .selector-chosen {
+.form-horizontal .form-group .controls .selector.stacked .selector-available,
+.form-horizontal .form-group .controls .selector.stacked .selector-chosen {
   width: 100%;
   min-width: 150px;
   max-width: 100%;
 }
-.form-horizontal .control-group .controls .selector.stacked .selector-available select,
-.form-horizontal .control-group .controls .selector.stacked .selector-chosen select,
-.form-horizontal .control-group .controls .selector.stacked .selector-available input,
-.form-horizontal .control-group .controls .selector.stacked .selector-chosen input {
+.form-horizontal .form-group .controls .selector.stacked .selector-available select,
+.form-horizontal .form-group .controls .selector.stacked .selector-chosen select,
+.form-horizontal .form-group .controls .selector.stacked .selector-available input,
+.form-horizontal .form-group .controls .selector.stacked .selector-chosen input {
   width: 100%;
   display: block;
 }
-.form-horizontal .control-group .controls .selector .selector-available,
-.form-horizontal .control-group .controls .selector .selector-chosen {
+.form-horizontal .form-group .controls .selector .selector-available,
+.form-horizontal .form-group .controls .selector .selector-chosen {
   width: 45%;
   min-width: 150px;
   max-width: 300px;
 }
-.form-horizontal .control-group .controls .selector .selector-available select,
-.form-horizontal .control-group .controls .selector .selector-chosen select,
-.form-horizontal .control-group .controls .selector .selector-available input,
-.form-horizontal .control-group .controls .selector .selector-chosen input {
+.form-horizontal .form-group .controls .selector .selector-available select,
+.form-horizontal .form-group .controls .selector .selector-chosen select,
+.form-horizontal .form-group .controls .selector .selector-available input,
+.form-horizontal .form-group .controls .selector .selector-chosen input {
   width: 100%;
   display: block;
 }
-.form-horizontal .control-group .controls .selector .selector-chooser {
+.form-horizontal .form-group .controls .selector .selector-chooser {
   list-style: none;
   margin: 70px 10px 0 10px;
 }
-.form-horizontal .control-group .controls .selector .selector-chooser li a {
+.form-horizontal .form-group .controls .selector .selector-chooser li a {
   text-indent: 200%;
   white-space: nowrap;
   overflow: hidden;
@@ -1450,10 +1446,10 @@ h3 {
   border: 1px solid transparent;
   background-position: -236px -92px;
 }
-.form-horizontal .control-group .controls .selector .selector-chooser li a:hover {
+.form-horizontal .form-group .controls .selector .selector-chooser li a:hover {
   opacity: 1;
 }
-.form-horizontal .control-group .controls .selector .selector-chooser li a:hover {
+.form-horizontal .form-group .controls .selector .selector-chooser li a:hover {
   background-color: white;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -1472,29 +1468,29 @@ h3 {
   border-bottom-right-radius: 2px;
   border: 1px solid #ddd;
 }
-.form-horizontal .control-group .controls .selector .selector-chooser li:first-child a {
+.form-horizontal .form-group .controls .selector .selector-chooser li:first-child a {
   background-position: -260px -92px;
 }
-.form-horizontal .control-group .controls .selector.stacked .selector-chooser {
+.form-horizontal .form-group .controls .selector.stacked .selector-chooser {
   list-style: none;
   margin: 5px 0 0 0;
   width: 100%;
 }
-.form-horizontal .control-group .controls .selector.stacked .selector-chooser li {
+.form-horizontal .form-group .controls .selector.stacked .selector-chooser li {
   display: inline-block;
 }
-.form-horizontal .control-group .controls .selector.stacked .selector-chooser li a {
+.form-horizontal .form-group .controls .selector.stacked .selector-chooser li a {
   background-position: -284px -92px;
 }
-.form-horizontal .control-group .controls .selector.stacked .selector-chooser li:first-child a {
+.form-horizontal .form-group .controls .selector.stacked .selector-chooser li:first-child a {
   background-position: -308px -92px;
 }
-.form-horizontal .control-group .controls .selector .selector-available a:not(.active),
-.form-horizontal .control-group .controls .selector .selector-chosen a:not(.active) {
+.form-horizontal .form-group .controls .selector .selector-available a:not(.active),
+.form-horizontal .form-group .controls .selector .selector-chosen a:not(.active) {
   color: #999999;
   text-decoration: none;
 }
-.form-horizontal .control-group .controls .selector .selector-available select {
+.form-horizontal .form-group .controls .selector .selector-available select {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -1505,12 +1501,12 @@ h3 {
   -moz-border-radius-topright: 0;
   border-top-right-radius: 0;
 }
-.form-horizontal .control-group .controls .selector .selector-filter {
+.form-horizontal .form-group .controls .selector .selector-filter {
   margin-right: 14px;
   position: relative;
   margin-bottom: -1px;
 }
-.form-horizontal .control-group .controls .selector .selector-filter input {
+.form-horizontal .form-group .controls .selector .selector-filter input {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -1521,7 +1517,7 @@ h3 {
   -moz-border-radius-bottomright: 0;
   border-bottom-right-radius: 0;
 }
-.form-horizontal .control-group .controls .selector .selector-filter label {
+.form-horizontal .form-group .controls .selector .selector-filter label {
   position: absolute;
   right: 0;
   top: 4px;
@@ -1812,6 +1808,7 @@ input[type="color"],
 .save-box .btn {
   width: 150px;
   margin-bottom: 10px;
+  white-space: pre-wrap;
 }
 .save-box .btn.btn-high {
   width: 150px;
@@ -1892,7 +1889,7 @@ input[type="color"],
   -moz-border-radius-bottomright: 2px;
   border-bottom-right-radius: 2px;
 }
-.login #content-main .control-group {
+.login #content-main .form-group {
   border: 0;
 }
 .left-nav {
@@ -2555,6 +2552,10 @@ a.append-icon i {
   clear: both;
 }
 /* styles to adapt bootstrap3 to old bootstrap 2 behaviour */
+/* uls left margin */
+.controls ul.radiolist {
+  padding-left: 0;
+}
 /* Print styles */
 @media print {
   html,

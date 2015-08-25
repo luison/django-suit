@@ -1,6 +1,6 @@
 <fieldset class="module aligned">
     {% for field in form %}
-        <div class="control-group{{ field.errors|yesno:' error,' }}">
+        <div class="form-group{{ field.errors|yesno:' error,' }}">
             <div class="control-label">
                 {{ field.label_tag }}
             </div>

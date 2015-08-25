@@ -628,15 +628,15 @@ body.cms-page .form-horizontal fieldset.plugin-holder > .legend {
   margin-top: 0;
   position: static;
 }
-body.cms-page .form-horizontal fieldset.plugin-holder .control-group {
+body.cms-page .form-horizontal fieldset.plugin-holder .form-group {
   background: transparent;
   display: block;
   width: 100%;
 }
-body.cms-page .form-horizontal fieldset.plugin-holder .control-group.form-row {
+body.cms-page .form-horizontal fieldset.plugin-holder .form-group.form-row {
   padding: 0;
 }
-body.cms-page .form-horizontal fieldset.plugin-holder .control-group > div {
+body.cms-page .form-horizontal fieldset.plugin-holder .form-group > div {
   display: block;
 }
 body.cms-page .form-horizontal fieldset.plugin-holder .control-label {
@@ -688,8 +688,8 @@ body.cms-page .form-horizontal fieldset.plugin-holder .plugin-select-holder .cop
 body.cms-page .form-horizontal fieldset.plugin-holder .plugin-select-holder .copy-plugins {
   background-position: -240px -143px;
 }
-body.cms-page .form-horizontal fieldset.plugin-holder .control-group:first-child .controls,
-body.cms-page .form-horizontal fieldset.plugin-holder .control-group:first-of-type .controls {
+body.cms-page .form-horizontal fieldset.plugin-holder .form-group:first-child .controls,
+body.cms-page .form-horizontal fieldset.plugin-holder .form-group:first-of-type .controls {
   padding: 0;
 }
 body.cms-page .form-horizontal fieldset.plugin-holder:before {
@@ -927,10 +927,10 @@ body.plugin-change-form .plugin-preview img {
   max-width: 100px;
   max-height: 100px;
 }
-.control-group.form-row {
+.form-group.form-row {
   padding: 0;
 }
-.control-group .control-label label {
+.form-group .control-label label {
   width: auto;
   float: none;
   text-align: right;
@@ -940,7 +940,7 @@ body.plugin-change-form .plugin-preview img {
 #text_form fieldset {
   box-shadow: none;
 }
-#text_form .control-group {
+#text_form .form-group {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -959,14 +959,14 @@ body.plugin-change-form .plugin-preview img {
   width: 100%;
   display: block;
 }
-#text_form .control-group > div {
+#text_form .form-group > div {
   display: block;
 }
-#text_form .control-group .control-label {
+#text_form .form-group .control-label {
   display: none;
   width: 0;
 }
-#text_form .control-group .controls {
+#text_form .form-group .controls {
   display: block;
   margin: 0;
   padding: 0;
@@ -988,7 +988,7 @@ body.plugin-change-form .plugin-preview img {
   -moz-border-radius-bottomright: 2px;
   border-bottom-right-radius: 2px;
 }
-#text_form .control-group .controls .html-widget {
+#text_form .form-group .controls .html-widget {
   display: inline-block;
   margin: 10px;
 }

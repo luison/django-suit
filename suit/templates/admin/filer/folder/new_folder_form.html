@@ -21,7 +21,7 @@
 
                 <fieldset class="module aligned">
                     {% for field in new_folder_form %}
-                        <div class="form-row name control-group{{ new_folder_form.errors.name|yesno:' error,' }}">
+                        <div class="form-row name form-group{{ new_folder_form.errors.name|yesno:' error,' }}">
                             <div class="control-label">
                                 <label for="id_{{ field.name }}" class="required">{{ field.label }}:</label>
                             </div>

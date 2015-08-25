@@ -47,32 +47,37 @@ class EnclosedInput(TextInput):
         """
         self.prepend = prepend
         self.append = append
+        # recover previous class attr and add bs3
+        attrs['class']= attrs.get('class','')+' form-control'
         super(EnclosedInput, self).__init__(attrs=attrs)
 
     def enclose_value(self, value):
         """
         If value doesn't starts with html open sign "<", enclose in add-on tag
         """
-        if value.startswith("<"):
-            return value
+        # if value.startswith("<"):
+        #     return value
         if value.startswith("icon-"):
-            value = '<i class="%s"></i>' % value
-        return '<span class="add-on">%s</span>' % value
+            #todo compatibilizar version anterior o extraer valor de icon
+            value = '<span class="glyphicon glyph%s"></span>' % value
+        return '<span class="input-group-addon">%s</span>' % value
+
 
     def render(self, name, value, attrs=None):
         output = super(EnclosedInput, self).render(name, value, attrs)
         div_classes = []
         if self.prepend:
-            div_classes.append('input-prepend')
+            #div_classes.append('input-prepend')
             self.prepend = self.enclose_value(self.prepend)
             output = ''.join((self.prepend, output))
         if self.append:
-            div_classes.append('input-append')
+            #div_classes.append('input-append')
             self.append = self.enclose_value(self.append)
             output = ''.join((output, self.append))
 
         return mark_safe(
-            '<div class="%s">%s</div>' % (' '.join(div_classes), output))
+            #'<div class="%s">%s</div>' % (' '.join(div_classes), output))
+            '<div class="%s input-group">%s</div>' % (' '.join(div_classes), output))
 
 
 class AutosizedTextarea(Textarea):
@@ -102,28 +107,29 @@ class AutosizedTextarea(Textarea):
 class SuitDateWidget(AdminDateWidget):
     def __init__(self, attrs=None, format=None):
         defaults = {'placeholder': _('Date:')[:-1]}
-        new_attrs = _make_attrs(attrs, defaults, "vDateField input-small")
+        new_attrs = _make_attrs(attrs, defaults, "vDateField input-small form-control")
         super(SuitDateWidget, self).__init__(attrs=new_attrs, format=format)
 
     def render(self, name, value, attrs=None):
         output = super(SuitDateWidget, self).render(name, value, attrs)
         return mark_safe(
-            '<div class="input-append suit-date">%s<span '
-            'class="add-on"><i class="icon-calendar"></i></span></div>' %
+            '<div class="input-group suit-date">%s<span '
+            #'class="input-group-addon"><i class="icon-calendar"></i></span></div>' %
+            'class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span></div>' %
             output)
 
 
 class SuitTimeWidget(AdminTimeWidget):
     def __init__(self, attrs=None, format=None):
         defaults = {'placeholder': _('Time:')[:-1]}
-        new_attrs = _make_attrs(attrs, defaults, "vTimeField input-small")
+        new_attrs = _make_attrs(attrs, defaults, "vTimeField input-small form-control")
         super(SuitTimeWidget, self).__init__(attrs=new_attrs, format=format)
 
     def render(self, name, value, attrs=None):
         output = super(SuitTimeWidget, self).render(name, value, attrs)
         return mark_safe(
-            '<div class="input-append suit-date suit-time">%s<span '
-            'class="add-on"><i class="icon-time"></i></span></div>' %
+            '<div class="input-group suit-date suit-time">%s<span '
+            'class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span></div>' %
             output)
 
 
