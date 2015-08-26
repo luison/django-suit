@@ -55,11 +55,18 @@ class EnclosedInput(TextInput):
         """
         If value doesn't starts with html open sign "<", enclose in add-on tag
         """
+
+        # not required on bs3
         # if value.startswith("<"):
         #     return value
+
+        # back support
         if value.startswith("icon-"):
-            #todo compatibilizar version anterior o extraer valor de icon
             value = '<span class="glyphicon glyph%s"></span>' % value
+        # bs3 syntax
+        if value.startswith("glyphicon-"):
+            value = '<span class="glyphicon %s"></span>' % value
+
         return '<span class="input-group-addon">%s</span>' % value
 
 
@@ -143,7 +150,7 @@ class SuitSplitDateTimeWidget(forms.SplitDateTimeWidget):
         forms.MultiWidget.__init__(self, widgets, attrs)
 
     def format_output(self, rendered_widgets):
-        out_tpl = '<div class="datetime">%s %s</div>'
+        out_tpl = '<div class="datetime form-inline">%s %s</div>'
         return mark_safe(out_tpl % (rendered_widgets[0], rendered_widgets[1]))
 
 
