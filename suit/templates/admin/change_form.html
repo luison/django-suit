@@ -103,13 +103,13 @@
                 </li>
                 {% if has_absolute_url %}
                   <li>
-                    <a href="{{ original.get_absolute_url }}" class="viewsitelink"><i class="icon-eye-open icon-alpha75"></i>{% trans "View on site" %}</a>
+                    <a href="{{ original.get_absolute_url }}" class="viewsitelink"><i class="glyphicon glyphicon-eye-open icon-alpha75"></i>{% trans "View on site" %}</a>
                   </li>
                 {% endif %}
 
                 {% if has_add_permission %}
                   <li>
-                    <a href="../add/"><i class="icon-plus-sign icon-alpha75"></i>{% blocktrans with opts.verbose_name as name %}Add {{ name }}{% endblocktrans %}
+                    <a href="../add/"><i class="glyphicon glyphicon-plus-sign icon-alpha75"></i>{% blocktrans with opts.verbose_name as name %}Add {{ name }}{% endblocktrans %}
                     </a></li>
                   {# {% blocktrans with cl.opts.verbose_name as name %}Add {{ name }}{% endblocktrans %}</a>#}
                 {% endif %}

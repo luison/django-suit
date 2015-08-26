@@ -42,7 +42,7 @@
             {% block header_time %}
             <div class="header-content header-content-first">
               <div class="header-column icon">
-                <i class="icon-time"></i>
+                <i class="glyphicon glyphicon-time"></i>
               </div>
               <div class="header-column">
                 <span class="date"> {% suit_date %}</span><br>
@@ -150,7 +150,7 @@
                   {% if search_url %}
                     <form class="form-inline nav-quick-search" autocomplete="off" action="{% if '/' in search_url %}{{ search_url }}{% else %}{% url search_url %}{% endif %}" method="GET">
                       <input type="text" name="q" class="input-medium search-query" id="quick-search">
-                      <i class="input-icon icon-search"></i>
+                      <span class="input-icon icon-search">dddd</span>
                       <input type="submit" class="submit" value="">
                     </form>
                   {% endif %}
@@ -180,9 +180,9 @@
     <div class="content">
       <div class="tools">
         {% block footer_links %}
-          <a href="http://djangosuit.com/support/" target="_blank" class="icon"><i class="icon-question-sign"></i>Support</a>
-          <a href="http://djangosuit.com/pricing/" target="_blank" class="icon"><i class="icon-bookmark"></i>Licence</a>
-          <a href="http://github.com/darklow/django-suit/issues" target="_blank" class="icon"><i class="icon-comment"></i>Report a bug</a>
+          <a href="http://djangosuit.com/support/" target="_blank" class="icon"><i class="glyphicon glyphicon-question-sign"></i>Support</a>
+          <a href="http://djangosuit.com/pricing/" target="_blank" class="icon"><i class="glyphicon glyphicon-bookmark"></i>Licence</a>
+          <a href="http://github.com/darklow/django-suit/issues" target="_blank" class="icon"><i class="glyphicon glyphicon-comment"></i>Report a bug</a>
         {% endblock %}
       </div>
 

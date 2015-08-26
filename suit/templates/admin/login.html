@@ -37,7 +37,7 @@
         {% endif %}
 
         <div id="content-main">
-            <h1><i class="icon-lock icon-white"></i> {{ 'ADMIN_NAME'|suit_conf }}</h1>
+            <h1><i class="glyphicon glyphicon-lock glyphicon-white"></i> {{ 'ADMIN_NAME'|suit_conf }}</h1>
 
             <form action="{{ app_path }}" method="post" id="login-form"><div class="hide">{% csrf_token %}</div>
                 <div class="form-row form-group{% if not form.this_is_the_login_form.errors and form.username.errors %} error{% endif %}">

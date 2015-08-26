@@ -1938,7 +1938,9 @@ input[type="color"],
   border-bottom-color: #ccc;
 }
 .left-nav > ul > li.active > a i {
-  background-image: url(../img/glyphicons-halflings-white-shadow.png);
+  /* bs3 only requires color change of type */
+  color: #fff;
+  /*background-image: url(../img/glyphicons-halflings-white-shadow.png);*/
   opacity: 1;
 }
 .left-nav > ul > li.active > a:after {
@@ -2555,6 +2557,11 @@ a.append-icon i {
 /* uls left margin */
 .controls ul.radiolist {
   padding-left: 0;
+}
+/* todo no funciona */
+.btn {
+  font-size: 13px;
+  padding: 4px 12px;
 }
 /* Print styles */
 @media print {
