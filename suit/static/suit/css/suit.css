@@ -77,15 +77,11 @@
   overflow: hidden;
 }
 .bs-icon {
-  text-indent: 200%;
-  white-space: nowrap;
-  overflow: hidden;
-  display: inline-block;
+  font-size: 0px;
+  font-family: "Glyphicons Halflings";
+  display: block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
-  background-position: 0 -96px;
-  background-repeat: no-repeat;
   opacity: .6;
   margin: 0;
 }
@@ -166,7 +162,7 @@ body {
 .header #branding h1 {
   color: white;
   font-size: 18px;
-  margin: 4px 15px 0 13px;
+  margin: 13px 12px 0 13px;
   padding: 0;
   text-shadow: 0 -1px #121414;
 }
@@ -198,9 +194,6 @@ body {
   color: #999;
   display: inline-block;
   margin: 0 5px;
-}
-.header i {
-  background-image: url(../img/glyphicons-halflings-white-nav.png);
 }
 .footer {
   color: #666;
@@ -464,11 +457,10 @@ body {
 .table thead th .sortoptions span {
   display: inline-block;
   float: left;
-  padding: 0 3px;
+  padding: 0 9px;
 }
 .table thead th .sortoptions .sortpriority {
   color: #777;
-  padding-right: 4px;
 }
 .table thead th .sortoptions .sortremove,
 .table thead th .sortoptions .toggle {
@@ -756,10 +748,6 @@ tr.form-row:nth-last-child(3) td .inline-sortable .sortable-down,
 }
 /* Search multi-line wrap top margin */
 .search-container {
-  margin-top: -5px;
-}
-.search-container input,
-.search-container select {
   margin-top: 5px;
 }
 .search-container input[type="radio"],
@@ -998,6 +986,9 @@ h2.legend,
 .form-horizontal .form-group .controls p {
   margin-bottom: 0;
 }
+.form-horizontal .form-group .controls label.inline {
+  font-weight: normal;
+}
 .form-horizontal .form-group .controls .readonly {
   display: inline-block;
   vertical-align: middle;
@@ -1142,14 +1133,11 @@ h2.legend,
 .inline-group .related-lookup,
 .form-group .change-related,
 .inline-group .change-related {
-  text-indent: 200%;
-  white-space: nowrap;
-  overflow: hidden;
+  font-size: 0px;
+  font-family: "Glyphicons Halflings";
+  display: block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
-  background-position: 0 -96px;
-  background-repeat: no-repeat;
   opacity: .6;
   margin: 0;
   display: inline-block;
@@ -1427,49 +1415,34 @@ h3 {
 }
 .form-horizontal .form-group .controls .selector .selector-chooser {
   list-style: none;
-  margin: 70px 10px 0 10px;
+  margin: 70px 15px 0 10px;
+  padding-left: 0;
 }
 .form-horizontal .form-group .controls .selector .selector-chooser li a {
-  text-indent: 200%;
-  white-space: nowrap;
-  overflow: hidden;
-  display: inline-block;
+  font-size: 0px;
+  font-family: "Glyphicons Halflings";
+  display: block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
-  background-position: 0 -96px;
-  background-repeat: no-repeat;
   opacity: .6;
   margin: 0;
-  display: block;
-  padding: 4px;
-  border: 1px solid transparent;
-  background-position: -236px -92px;
+  padding: 6px;
 }
 .form-horizontal .form-group .controls .selector .selector-chooser li a:hover {
   opacity: 1;
 }
-.form-horizontal .form-group .controls .selector .selector-chooser li a:hover {
-  background-color: white;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
-  border: 1px solid #ddd;
+.form-horizontal .form-group .controls .selector .selector-chooser li a:after {
+  content: "\e091";
+  font-size: 14px;
+  color: #0088cc;
 }
-.form-horizontal .form-group .controls .selector .selector-chooser li:first-child a {
-  background-position: -260px -92px;
+.form-horizontal .form-group .controls .selector .selector-chooser li a:hover {
+  color: #999999;
+}
+.form-horizontal .form-group .controls .selector .selector-chooser li:first-child a:after {
+  content: "\e092";
+  font-size: 14px;
+  color: #0088cc;
 }
 .form-horizontal .form-group .controls .selector.stacked .selector-chooser {
   list-style: none;
@@ -1612,13 +1585,16 @@ h3 {
   position: relative;
 }
 .suit-date .datetimeshortcuts {
-  margin-left: 32px;
+  margin-left: 40px;
   color: #f6f7f8;
+  vertical-align: baseline;
+}
+.suit-date .datetimeshortcuts a {
+  margin-top: 6px;
 }
 .suit-date .datetimeshortcuts a:last-child {
-  padding: 0 5px;
   position: absolute;
-  left: 100px;
+  left: 104px;
   z-index: 2;
 }
 .suit-date .datetimeshortcuts a:last-child img {
@@ -1628,21 +1604,26 @@ h3 {
   vertical-align: middle;
 }
 .suit-date input.vDateField {
-  width: 80px;
+  width: 84px !important;
 }
 .suit-date input.vTimeField {
-  width: 60px;
+  width: 64px !important;
 }
-.suit-date .add-on {
+.suit-date .add-on,
+.suit-date .input-group-addon {
   position: absolute;
-  left: 94px;
+  left: 84px;
+  line-height: inherit;
+  display: inline;
+  width: auto;
 }
-.suit-date.suit-time .add-on {
-  left: 74px;
+.suit-date.suit-time .add-on,
+.suit-date.suit-time .input-group-addon {
+  left: 64px;
 }
 .suit-date.suit-time .datetimeshortcuts a:last-child {
   position: absolute;
-  left: 80px;
+  left: 78px;
 }
 .autosize {
   max-height: 150px;
@@ -2558,10 +2539,14 @@ a.append-icon i {
 .controls ul.radiolist {
   padding-left: 0;
 }
-/* todo no funciona */
+/* todo how to make it work as the new li-inline */
 .btn {
-  font-size: 13px;
+  font-size: 14px;
+  line-height: 15px;
   padding: 4px 12px;
+}
+div.related-widget-wrapper p.selector-filter img {
+  margin-right: 15px;
 }
 /* Print styles */
 @media print {

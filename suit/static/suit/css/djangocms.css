@@ -68,16 +68,11 @@
   overflow: hidden;
 }
 .bs-icon {
-  text-indent: 200%;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  display: inline-block;
+  font-size: 0px;
+  font-family: "Glyphicons Halflings";
+  display: block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
-  background-position: 0 -96px;
-  background-repeat: no-repeat;
   opacity: .6;
   margin: 0;
 }
@@ -278,12 +273,13 @@
   white-space: nowrap;
 }
 #changelist #sitemap .tree .tree-default li .col-actions a {
-  text-indent: 200%;
-  background-repeat: no-repeat;
+  font-size: 0px;
+  font-family: "Glyphicons Halflings";
+  display: block;
   display: inline-block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
+  background-image: url("../bootstrap/_img/glyphicons-halflings.png");
   background-position: 0 -96px;
   text-indent: 100%;
   white-space: nowrap;
@@ -312,12 +308,13 @@
 }
 #changelist #sitemap .tree .tree-default li .viewpage,
 #changelist #sitemap .tree .tree-default li .publish {
-  text-indent: 200%;
-  background-repeat: no-repeat;
+  font-size: 0px;
+  font-family: "Glyphicons Halflings";
+  display: block;
   display: inline-block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
+  background-image: url("../bootstrap/_img/glyphicons-halflings.png");
   background-position: 0 -96px;
   text-indent: 100%;
   white-space: nowrap;
@@ -349,12 +346,13 @@
   background-position: -96px -120px;
 }
 #changelist #sitemap .tree .tree-default li .col-lastchange .icon {
-  text-indent: 200%;
-  background-repeat: no-repeat;
+  font-size: 0px;
+  font-family: "Glyphicons Halflings";
+  display: block;
   display: inline-block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
+  background-image: url("../bootstrap/_img/glyphicons-halflings.png");
   background-position: 0 -96px;
   text-indent: 100%;
   white-space: nowrap;
@@ -454,12 +452,13 @@
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
 #changelist #sitemap .tree .tree-default li .softroot-icon {
-  text-indent: 200%;
-  background-repeat: no-repeat;
+  font-size: 0px;
+  font-family: "Glyphicons Halflings";
+  display: block;
   display: inline-block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
+  background-image: url("../bootstrap/_img/glyphicons-halflings.png");
   background-position: 0 -96px;
   text-indent: 100%;
   white-space: nowrap;
@@ -581,7 +580,7 @@
   display: inline-block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
+  background-image: url("../bootstrap/_img/glyphicons-halflings.png");
   background-position: 0 -96px;
   text-indent: 100%;
   white-space: nowrap;
@@ -662,11 +661,13 @@ body.cms-page .form-horizontal fieldset.plugin-holder .plugin-select-holder sele
 }
 body.cms-page .form-horizontal fieldset.plugin-holder .plugin-select-holder .add-plugin,
 body.cms-page .form-horizontal fieldset.plugin-holder .plugin-select-holder .copy-plugins {
-  background-repeat: no-repeat;
+  font-size: 0px;
+  font-family: "Glyphicons Halflings";
+  display: block;
   display: inline-block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
+  background-image: url("../bootstrap/_img/glyphicons-halflings.png");
   background-position: 0 -96px;
   opacity: .6;
   margin: 0;
@@ -829,12 +830,13 @@ ul.plugin-list li .descr {
   color: #aaa;
 }
 ul.plugin-list li .delete {
-  text-indent: 200%;
-  background-repeat: no-repeat;
+  font-size: 0px;
+  font-family: "Glyphicons Halflings";
+  display: block;
   display: inline-block;
   width: 14px;
   height: 14px;
-  background-image: url("../bootstrap/img/glyphicons-halflings.png");
+  background-image: url("../bootstrap/_img/glyphicons-halflings.png");
   background-position: 0 -96px;
   text-indent: 100%;
   white-space: nowrap;

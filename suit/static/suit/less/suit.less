@@ -31,7 +31,7 @@ body {
     min-width: 960px;
     margin: 0;
     font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-size: @bodyfontsize;
     &.popup {
         min-width: inherit;
     }
@@ -223,16 +223,20 @@ a.append-icon i {
     padding-left: 0;
 }
 
-/* todo no funciona */
+/* todo how to make it work as the new li-inline */
 .controls ul.inline {
-     &:extend(.list-inline);
+
 }
 
 .btn{
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 15px;
     padding: 4px 12px;
 }
 
-
+// search icon unpositioned in filter box
+div.related-widget-wrapper p.selector-filter img {
+    margin-right: 15px;
+}
 
 @import 'print';

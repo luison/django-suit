@@ -8,7 +8,7 @@
 
   {% if pagination_required %}
     <div class="pagination">
-      <ul>
+      <ul class="pagination">
         {% for i in page_range %}
           {% paginator_number cl i %}
         {% endfor %}

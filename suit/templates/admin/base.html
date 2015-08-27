@@ -22,7 +22,7 @@
 </head>
 {% load i18n %}
 
-<body class="{% if is_popup %}popup {% endif %}{% block bodyclass %}{% endblock %}">
+<body class="{% if is_popup %}popup {% endif %}{% block bodyclass %}{{block.super}}{% endblock %}">
 
 <!-- Sticky footer wrap -->
 <div id="wrap">
@@ -150,7 +150,7 @@
                   {% if search_url %}
                     <form class="form-inline nav-quick-search" autocomplete="off" action="{% if '/' in search_url %}{{ search_url }}{% else %}{% url search_url %}{% endif %}" method="GET">
                       <input type="text" name="q" class="input-medium search-query" id="quick-search">
-                      <span class="input-icon icon-search">dddd</span>
+                      <span class="input-icon glyphicon glyphicon-search"></span>
                       <input type="submit" class="submit" value="">
                     </form>
                   {% endif %}

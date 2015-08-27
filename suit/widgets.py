@@ -56,9 +56,9 @@ class EnclosedInput(TextInput):
         If value doesn't starts with html open sign "<", enclose in add-on tag
         """
 
-        # not required on bs3
-        # if value.startswith("<"):
-        #     return value
+        #todo surround by a form-inline div in this case so maintains one line
+        if value.startswith("<"):
+             return value
 
         # back support
         if value.startswith("icon-"):
@@ -122,7 +122,7 @@ class SuitDateWidget(AdminDateWidget):
         return mark_safe(
             '<div class="input-group suit-date">%s<span '
             #'class="input-group-addon"><i class="icon-calendar"></i></span></div>' %
-            'class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span></div>' %
+            'class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span></div>' %
             output)
 
 
