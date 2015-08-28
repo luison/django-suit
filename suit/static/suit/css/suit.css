@@ -2563,9 +2563,11 @@ a.append-icon i {
 }
 /* todo how to make it work as the new li-inline */
 .btn {
+  padding: 4px 12px;
+}
+.btn:not([class*=btn-]) {
   font-size: 14px;
   line-height: 15px;
-  padding: 4px 12px;
 }
 div.related-widget-wrapper p.selector-filter img {
   margin-right: 15px;

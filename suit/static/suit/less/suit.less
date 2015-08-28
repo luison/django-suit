@@ -230,9 +230,14 @@ a.append-icon i {
 }
 
 .btn {
+    // Al buttons
+    padding: 4px 12px;
+}
+
+.btn:not([class*=btn-]) {
+    // All buttons except new BS3 btn-*
     font-size: 14px;
     line-height: 15px;
-    padding: 4px 12px;
 }
 
 // search icon unpositioned in filter box

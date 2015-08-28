@@ -56,9 +56,9 @@ class EnclosedInput(TextInput):
         If value doesn't starts with html open sign "<", enclose in add-on tag
         """
 
-        if value.startswith("<"):
-            # Surround by a form-inline div in this case so maintains one line
-            value = '<div class="form-inline">{0}</div>'.format(value)
+        if value.startswith("<button") or value.startswith('<input') and 'type="button"' in value:
+            # Surround usign input-group-btb in this case so maintains one line
+            value = '<div class="input-group-btn">{0}</div>'.format(value)
             return value
 
         # back support
@@ -85,7 +85,7 @@ class EnclosedInput(TextInput):
 
         return mark_safe(
             #'<div class="%s">%s</div>' % (' '.join(div_classes), output))
-            '<div class="%s input-group">%s</div>' % (' '.join(div_classes), output))
+            '<div class="%s input-group form-inline">%s</div>' % (' '.join(div_classes), output))
 
 
 class AutosizedTextarea(Textarea):
