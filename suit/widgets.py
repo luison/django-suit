@@ -56,9 +56,10 @@ class EnclosedInput(TextInput):
         If value doesn't starts with html open sign "<", enclose in add-on tag
         """
 
-        #todo surround by a form-inline div in this case so maintains one line
         if value.startswith("<"):
-             return value
+            # Surround by a form-inline div in this case so maintains one line
+            value = '<div class="form-inline">{0}</div>'.format(value)
+            return value
 
         # back support
         if value.startswith("icon-"):

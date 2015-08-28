@@ -26,6 +26,7 @@
 @import 'ui/datepicker';
 @import 'ui/tabs';
 
+
 body {
     background-color: @bgcolor;
     min-width: 960px;
@@ -228,7 +229,7 @@ a.append-icon i {
 
 }
 
-.btn{
+.btn {
     font-size: 14px;
     line-height: 15px;
     padding: 4px 12px;
@@ -237,6 +238,11 @@ a.append-icon i {
 // search icon unpositioned in filter box
 div.related-widget-wrapper p.selector-filter img {
     margin-right: 15px;
+}
+
+// Remove outline on focus for quick search
+ input#quick-search:focus {
+    outline: 0;
 }
 
 @import 'print';

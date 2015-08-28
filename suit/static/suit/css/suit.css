@@ -94,6 +94,7 @@ html,
 body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
+
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -101,6 +102,7 @@ body {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by it's height */
+
   margin: 0 auto -60px;
 }
 /* Set the fixed height of the footer here */
@@ -838,8 +840,11 @@ h2.legend,
   -moz-border-radius-bottomright: 2px;
   border-bottom-right-radius: 2px;
   /* BS collapse override */
+
   /* Position attr change for collapsed */
+
   /* COLLAPSE LOGIC */
+
 }
 .form-horizontal fieldset.first,
 .popup .form-horizontal fieldset:first-of-type {
@@ -954,7 +959,9 @@ h2.legend,
   display: table-header-group;
   margin: 0;
   /* Some BS form global overrides */
+
   /* Inline forms fields */
+
 }
 .form-horizontal .form-group > div {
   display: table-row;
@@ -1442,7 +1449,7 @@ h3 {
 .form-horizontal .form-group .controls .selector .selector-chooser li:first-child a:after {
   content: "\e092";
   font-size: 14px;
-  color: #0088cc;
+  color: #0088cc //position: absolute; //top: 0; //left: 9999px; //background-position: -260px -92px;;
 }
 .form-horizontal .form-group .controls .selector.stacked .selector-chooser {
   list-style: none;
@@ -1499,7 +1506,9 @@ h3 {
 }
 .controls {
   /* Special styles for django auth app */
+
   /* File upload styles */
+
 }
 .controls #id_groups_from {
   min-height: 80px;
@@ -1809,14 +1818,17 @@ input[type="color"],
   background: white;
   padding: 0;
   /* Position hor/ver center */
+
   position: absolute;
   width: 340px;
   left: 50%;
   top: 35%;
   margin-left: -170px;
   /* Half the width of the DIV tag */
+
   margin-top: -100px;
   /* Half the height of the DIV tag */
+
 }
 .login #content-main h1 {
   font-size: 14px;
@@ -1920,8 +1932,10 @@ input[type="color"],
 }
 .left-nav > ul > li.active > a i {
   /* bs3 only requires color change of type */
+
   color: #fff;
   /*background-image: url(../img/glyphicons-halflings-white-shadow.png);*/
+
   opacity: 1;
 }
 .left-nav > ul > li.active > a:after {
@@ -2497,8 +2511,10 @@ a.append-icon i {
 .suit-columns {
   padding-left: 200px;
   /* LC fullwidth */
+
   padding-right: 40px;
   /* RC fullwidth + CC padding */
+
 }
 .suit-columns .suit-column {
   position: relative;
@@ -2510,6 +2526,7 @@ a.append-icon i {
 #suit-center {
   padding: 20px;
   /* CC padding */
+
   width: 100%;
 }
 .popup #suit-center {
@@ -2519,17 +2536,22 @@ a.append-icon i {
 #suit-left {
   width: 200px;
   /* LC width */
+
   right: 200px;
   /* LC fullwidth + CC padding */
+
   margin-left: -100%;
 }
 #suit-right {
   width: 130px;
   /* RC width */
+
   padding: 0 10px;
   /* RC padding */
+
   margin-right: -190px;
   /* RC fullwidth + CC padding */
+
 }
 #push {
   clear: both;
@@ -2547,6 +2569,9 @@ a.append-icon i {
 }
 div.related-widget-wrapper p.selector-filter img {
   margin-right: 15px;
+}
+input#quick-search:focus {
+  outline: 0;
 }
 /* Print styles */
 @media print {
@@ -2584,4 +2609,3 @@ div.related-widget-wrapper p.selector-filter img {
     margin-right: 0;
   }
 }
-/*# sourceMappingURL=suit.css.map */
