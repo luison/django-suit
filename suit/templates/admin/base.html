@@ -12,7 +12,8 @@
   {% if 'SHOW_REQUIRED_ASTERISK'|suit_conf %}
   <style type="text/css">.required:after { content: '*'; margin: 0 0 0 5px; position: absolute; color: #ccc;}</style>
   {% endif %}
-  <!-- TODO: llevar abajo los JS -->
+    <!-- TODO: llevar abajo los JS -->
+  <script type="text/javascript" src="{% static "admin/js/jquery.js" %}"></script>
   {% block extrahead %}{% endblock %}
   {% block blockbots %}
   <script src="{% static 'suit/bootstrap/js/bootstrap.min.js' %}"></script>
