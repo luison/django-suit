@@ -2579,6 +2579,9 @@ div.related-widget-wrapper p.selector-filter img {
 input#quick-search:focus {
   outline: 0;
 }
+.form-control.bs2-retro {
+  width: 220px;
+}
 /* Print styles */
 @media print {
   html,

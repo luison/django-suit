@@ -1,9 +1,11 @@
-from django.contrib.admin.widgets import AdminTimeWidget, AdminDateWidget
+from django.contrib.admin.widgets import AdminTimeWidget, AdminDateWidget, AdminTextInputWidget
 from django.forms import TextInput, Select, Textarea
 from django.utils.safestring import mark_safe
 from django import forms
 from django.utils.translation import ugettext as _
 from django.contrib.admin.templatetags.admin_static import static
+
+DEFAULT_INPUT_SIZE = 'input-sm'
 
 
 class NumberInput(TextInput):
@@ -32,7 +34,7 @@ class LinkedSelect(Select):
     """
 
     def __init__(self, attrs=None, choices=()):
-        attrs = _make_attrs(attrs, classes="linked-select")
+        attrs = _make_attrs(attrs, classes="linked-select 'form-control bs2-retro %s" % DEFAULT_INPUT_SIZE)
         super(LinkedSelect, self).__init__(attrs, choices)
 
 
@@ -59,6 +61,8 @@ class EnclosedInput(TextInput):
         if value.startswith("<button") or value.startswith('<input') and 'type="button"' in value:
             # Surround usign input-group-btb in this case so maintains one line
             value = '<div class="input-group-btn">{0}</div>'.format(value)
+            return value
+        elif value.startswith('<'):
             return value
 
         # back support
@@ -160,3 +164,17 @@ def _make_attrs(attrs, defaults=None, classes=None):
     return result
 
 
+class SuitTextInputWidget(AdminTextInputWidget):
+    def __init__(self, attrs=None):
+        final_attrs = {'class': 'form-control bs2-retro %s' % DEFAULT_INPUT_SIZE}
+        if attrs is not None:
+            final_attrs.update(attrs)
+        super(AdminTextInputWidget, self).__init__(attrs=final_attrs)
+
+
+class SuitSelectWidget(Select):
+    def __init__(self, attrs=None):
+        final_attrs = {'class': 'form-control bs2-retro %s' % DEFAULT_INPUT_SIZE}
+        if attrs is not None:
+            final_attrs.update(attrs)
+        super(SuitSelectWidget, self).__init__(attrs=final_attrs)
