@@ -5,8 +5,8 @@ from django.contrib.admin.views.main import ChangeList
 from django.forms import ModelForm
 from django.contrib import admin
 from django.db import models
-from suit.widgets import NumberInput, SuitSplitDateTimeWidget
-from suit.compat import ct_admin
+from .widgets import NumberInput, SuitSplitDateTimeWidget
+from .compat import ct_admin
 
 
 class SortableModelAdminBase(object):
