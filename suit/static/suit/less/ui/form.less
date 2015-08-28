@@ -527,7 +527,8 @@ h3 {
         .border-radius(0, 0, null, null);
     }
     .selector-filter {
-        margin-right: 14px;
+        // Removed margin-right in BS3
+        // margin-right: 14px;
         position: relative;
         margin-bottom: -1px;
         input {
@@ -675,6 +676,11 @@ h3 {
         }
     }
 }
+
+select:not([size]):not([multiple]), select[size="0"], select[size="1"] {
+    background-color: white;
+}
+
 .autosize {
     max-height: 150px;
 }

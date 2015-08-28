@@ -48,7 +48,7 @@ class EnclosedInput(TextInput):
         self.prepend = prepend
         self.append = append
         # recover previous class attr and add bs3
-        attrs['class']= attrs.get('class','')+' form-control'
+        attrs['class'] = '%s form-control' % attrs.get('class', '')
         super(EnclosedInput, self).__init__(attrs=attrs)
 
     def enclose_value(self, value):
@@ -73,19 +73,15 @@ class EnclosedInput(TextInput):
 
     def render(self, name, value, attrs=None):
         output = super(EnclosedInput, self).render(name, value, attrs)
-        div_classes = []
         if self.prepend:
-            #div_classes.append('input-prepend')
             self.prepend = self.enclose_value(self.prepend)
             output = ''.join((self.prepend, output))
         if self.append:
-            #div_classes.append('input-append')
             self.append = self.enclose_value(self.append)
             output = ''.join((output, self.append))
 
         return mark_safe(
-            #'<div class="%s">%s</div>' % (' '.join(div_classes), output))
-            '<div class="%s input-group form-inline">%s</div>' % (' '.join(div_classes), output))
+            '<div class="input-group form-inline">%s</div>' % output)
 
 
 class AutosizedTextarea(Textarea):
@@ -122,7 +118,7 @@ class SuitDateWidget(AdminDateWidget):
         output = super(SuitDateWidget, self).render(name, value, attrs)
         return mark_safe(
             '<div class="input-group suit-date">%s<span '
-            #'class="input-group-addon"><i class="icon-calendar"></i></span></div>' %
+            # 'class="input-group-addon"><i class="icon-calendar"></i></span></div>' %
             'class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span></div>' %
             output)
 
@@ -162,3 +158,5 @@ def _make_attrs(attrs, defaults=None, classes=None):
     if classes:
         result["class"] = " ".join((classes, result.get("class", "")))
     return result
+
+

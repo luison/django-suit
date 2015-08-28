@@ -1482,7 +1482,6 @@ h3 {
   border-top-right-radius: 0;
 }
 .form-horizontal .form-group .controls .selector .selector-filter {
-  margin-right: 14px;
   position: relative;
   margin-bottom: -1px;
 }
@@ -1633,6 +1632,11 @@ h3 {
 .suit-date.suit-time .datetimeshortcuts a:last-child {
   position: absolute;
   left: 78px;
+}
+select:not([size]):not([multiple]),
+select[size="0"],
+select[size="1"] {
+  background-color: white;
 }
 .autosize {
   max-height: 150px;
