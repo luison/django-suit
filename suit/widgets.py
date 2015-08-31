@@ -164,17 +164,18 @@ def _make_attrs(attrs, defaults=None, classes=None):
     return result
 
 
-class SuitTextInputWidget(AdminTextInputWidget):
-    def __init__(self, attrs=None):
+class SuitFormComponentMix(object):
+    def render(self, name, value, attrs=None):
         final_attrs = {'class': 'form-control bs2-retro %s' % DEFAULT_INPUT_SIZE}
         if attrs is not None:
+            final_attrs['class'] = ' '.join((attrs.get('class', ''), final_attrs['class']))
             final_attrs.update(attrs)
-        super(AdminTextInputWidget, self).__init__(attrs=final_attrs)
+        return super(SuitFormComponentMix, self).render(name, value, attrs)
 
 
-class SuitSelectWidget(Select):
-    def __init__(self, attrs=None):
-        final_attrs = {'class': 'form-control bs2-retro %s' % DEFAULT_INPUT_SIZE}
-        if attrs is not None:
-            final_attrs.update(attrs)
-        super(SuitSelectWidget, self).__init__(attrs=final_attrs)
+class SuitTextInputWidget(SuitFormComponentMix, AdminTextInputWidget):
+    pass
+
+
+class SuitSelectWidget(SuitFormComponentMix, Select):
+    pass
