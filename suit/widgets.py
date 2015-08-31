@@ -1,5 +1,6 @@
 from django.contrib.admin.widgets import AdminTimeWidget, AdminDateWidget, AdminTextInputWidget
-from django.forms import TextInput, Select, Textarea
+from django.forms import TextInput, Select, Textarea, CheckboxSelectMultiple
+from django.forms.widgets import ChoiceFieldRenderer, CheckboxChoiceInput
 from django.utils.safestring import mark_safe
 from django import forms
 from django.utils.translation import ugettext as _
@@ -182,3 +183,29 @@ class SuitTextInputWidget(SuitFormComponentMix, AdminTextInputWidget):
 
 class SuitSelectWidget(SuitFormComponentMix, Select):
     pass
+
+
+class ChoiceFieldRendererBS3(ChoiceFieldRenderer):
+    inner_class = {
+        CheckboxChoiceInput: 'checkbox'
+    }
+    # outer_html = '<ul{id_attr}>{content}</ul>'
+    outer_html = u'{content}'
+    # inner_html = '<li>{choice_value}{sub_widgets}</li>'
+    inner_html = u'<div class="%s">{choice_value}{sub_widgets}</div>'
+
+    def __init__(self, name, value, attrs, choices):
+        self.inner_html = self.inner_html % self.inner_class.get(self.choice_input_class, '')
+        self.name = name
+        self.value = value
+        self.attrs = attrs
+        self.choices = choices
+
+
+class CheckboxFieldRendererBS3(ChoiceFieldRendererBS3):
+    choice_input_class = CheckboxChoiceInput
+
+
+class SuitCheckboxSelectMultiple(CheckboxSelectMultiple):
+    renderer = CheckboxFieldRendererBS3
+    _empty_value = []

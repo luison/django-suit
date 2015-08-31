@@ -2582,6 +2582,10 @@ input#quick-search:focus {
 .form-control.bs2-retro {
   width: 220px;
 }
+/* Checkboxes HACK */
+.related-widget-wrapper ul {
+  padding-left: 0;
+}
 /* Print styles */
 @media print {
   html,
