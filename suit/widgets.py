@@ -169,8 +169,11 @@ class SuitFormComponentMix(object):
         final_attrs = {'class': 'form-control bs2-retro %s' % DEFAULT_INPUT_SIZE}
         if attrs is not None:
             final_attrs['class'] = ' '.join((attrs.get('class', ''), final_attrs['class']))
+            if attrs.get('class'):
+                del attrs['class']
             final_attrs.update(attrs)
-        return super(SuitFormComponentMix, self).render(name, value, attrs)
+        response = super(SuitFormComponentMix, self).render(name, value, final_attrs)
+        return response
 
 
 class SuitTextInputWidget(SuitFormComponentMix, AdminTextInputWidget):
