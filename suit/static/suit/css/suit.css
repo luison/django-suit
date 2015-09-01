@@ -2567,7 +2567,7 @@ a.append-icon i {
   padding-left: 0;
 }
 /* todo how to make it work as the new li-inline */
-.btn {
+.btn:not([class*="btn-"]) { /* Prevent override BS3 buttons */
   padding: 4px 12px;
 }
 .btn:not([class*=btn-]) {
