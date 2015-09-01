@@ -2528,7 +2528,8 @@ a.append-icon i {
   padding: 0;
 }
 #suit-center {
-  padding: 20px;
+  /* padding: 20px; */
+  padding: 20px 0 20px 20px;
   /* CC padding */
 
   width: 100%;
