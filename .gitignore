@@ -7,3 +7,8 @@
 docs/_build/
 /build
 /dist/
+/suit/static/suit/bootstrap/css/*.map
+/suit/static/suit/bootstrap/dist/css/*.map
+/suit/static/suit/bootstrap/docs/dist/css/*.map
+/suit/static/suit/css/*.map
+/suit/static/suit/css/ui/*.map

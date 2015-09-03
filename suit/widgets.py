@@ -6,7 +6,8 @@ from django import forms
 from django.utils.translation import ugettext as _
 from django.contrib.admin.templatetags.admin_static import static
 
-DEFAULT_INPUT_SIZE = 'input-sm'
+# todo eliminar, no debemos meter un -sm a todos
+DEFAULT_INPUT_SIZE = ''
 
 
 class NumberInput(TextInput):

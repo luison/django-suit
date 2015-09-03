@@ -78,15 +78,19 @@
 }
 .bs-icon {
   font-size: 0px;
+  line-height: inherit;
   font-family: "Glyphicons Halflings";
-  display: block;
-  width: 14px;
-  height: 14px;
+  text-decoration: none;
   opacity: .6;
   margin: 0;
 }
 .bs-icon:hover {
   opacity: 1;
+}
+.select_inputs_def,
+.select2-container-multi .select2-choices {
+  background-image: linear-gradient(to bottom, #eeeeee 1%, #ffffff 15%);
+  border: 1px solid #ccc;
 }
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -94,7 +98,6 @@ html,
 body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
-
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -102,7 +105,6 @@ body {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by it's height */
-
   margin: 0 auto -60px;
 }
 /* Set the fixed height of the footer here */
@@ -307,7 +309,7 @@ body {
 .table-overview {
   border-spacing: 0;
   margin-bottom: 18px;
-  border-radius: 2px;
+  border-radius: 3px;
   background: #fff;
   width: auto;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
@@ -336,10 +338,10 @@ body {
   border-bottom: 0;
 }
 .table-overview tr:first-child td {
-  border-top-right-radius: 2px;
+  border-top-right-radius: 3px;
 }
 .table-overview tr:last-child td {
-  border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 3px;
 }
 .table-overview tr:first-child th,
 .table-overview tr:first-child td {
@@ -360,8 +362,8 @@ body {
   text-decoration: none;
 }
 .table-overview tr.header-row:first-child th {
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
   border-top: 0;
 }
 .table-overview tr.header-row th {
@@ -385,7 +387,6 @@ body {
 }
 .table th,
 .table td {
-  background-color: white;
   box-shadow: inset 1px 1px 0 #ffffff;
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
@@ -657,18 +658,18 @@ tr.form-row:nth-last-child(3) td .inline-sortable .sortable-down,
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
   background: white;
   min-width: 200px;
@@ -691,12 +692,12 @@ tr.form-row:nth-last-child(3) td .inline-sortable .sortable-down,
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
 }
 .actionlist li i {
   float: left;
@@ -827,24 +828,21 @@ h2.legend,
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
   /* BS collapse override */
-
   /* Position attr change for collapsed */
-
   /* COLLAPSE LOGIC */
-
 }
 .form-horizontal fieldset.first,
 .popup .form-horizontal fieldset:first-of-type {
@@ -920,18 +918,18 @@ h2.legend,
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
 }
 .form-horizontal fieldset.full-width .form-group .controls .html-widget {
   display: inline-block;
@@ -959,9 +957,7 @@ h2.legend,
   display: table-header-group;
   margin: 0;
   /* Some BS form global overrides */
-
   /* Inline forms fields */
-
 }
 .form-horizontal .form-group > div {
   display: table-row;
@@ -1007,9 +1003,9 @@ h2.legend,
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
 }
 .form-horizontal .form-group:first-child .controls,
 .form-horizontal .form-group:first-of-type .controls {
@@ -1017,9 +1013,9 @@ h2.legend,
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
 }
 .form-horizontal .form-group:last-child .control-label,
 .form-horizontal .form-group:last-of-type .control-label {
@@ -1028,9 +1024,9 @@ h2.legend,
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
 }
 .form-horizontal .form-group:last-child .controls,
 .form-horizontal .form-group:last-of-type .controls {
@@ -1038,9 +1034,9 @@ h2.legend,
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
 }
 .form-horizontal .form-group .help-block,
 .form-horizontal .form-group .help-inline {
@@ -1140,42 +1136,11 @@ h2.legend,
 .inline-group .related-lookup,
 .form-group .change-related,
 .inline-group .change-related {
-  font-size: 0px;
-  font-family: "Glyphicons Halflings";
-  display: block;
-  width: 14px;
-  height: 14px;
-  opacity: .6;
-  margin: 0;
   display: inline-block;
-  padding: 4px;
   border: 1px solid transparent;
-  padding-left: 6px;
+  padding: 0 4px;
   vertical-align: middle;
-}
-.form-group .add-related:hover,
-.inline-group .add-related:hover,
-.form-group .related-lookup:hover,
-.inline-group .related-lookup:hover,
-.form-group .change-related:hover,
-.inline-group .change-related:hover {
-  opacity: 1;
-}
-.form-group .add-related img,
-.inline-group .add-related img,
-.form-group .related-lookup img,
-.inline-group .related-lookup img,
-.form-group .change-related img,
-.inline-group .change-related img {
-  display: none;
-}
-.form-group .related-lookup,
-.inline-group .related-lookup {
-  background-position: -42px 4px;
-}
-.form-group .change-related,
-.inline-group .change-related {
-  background-position: 7px -68px;
+  line-height: 1;
 }
 .form-group .vForeignKeyRawIdAdminField,
 .inline-group .vForeignKeyRawIdAdminField {
@@ -1237,12 +1202,12 @@ h3 {
   -webkit-border-top-right-radius: 0;
   -moz-border-radius-topright: 0;
   border-top-right-radius: 0;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
   border: 1px solid #ddd;
 }
 .form-horizontal .inline-group .add-row a {
@@ -1316,12 +1281,12 @@ h3 {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
   -webkit-border-bottom-left-radius: 0;
   -moz-border-radius-bottomleft: 0;
   border-bottom-left-radius: 0;
@@ -1427,10 +1392,9 @@ h3 {
 }
 .form-horizontal .form-group .controls .selector .selector-chooser li a {
   font-size: 0px;
+  line-height: inherit;
   font-family: "Glyphicons Halflings";
-  display: block;
-  width: 14px;
-  height: 14px;
+  text-decoration: none;
   opacity: .6;
   margin: 0;
   padding: 6px;
@@ -1449,7 +1413,7 @@ h3 {
 .form-horizontal .form-group .controls .selector .selector-chooser li:first-child a:after {
   content: "\e092";
   font-size: 14px;
-  color: #0088cc //position: absolute; //top: 0; //left: 9999px; //background-position: -260px -92px;;
+  color: #0088cc;
 }
 .form-horizontal .form-group .controls .selector.stacked .selector-chooser {
   list-style: none;
@@ -1505,9 +1469,7 @@ h3 {
 }
 .controls {
   /* Special styles for django auth app */
-
   /* File upload styles */
-
 }
 .controls #id_groups_from {
   min-height: 80px;
@@ -1536,26 +1498,13 @@ h3 {
 }
 /* SELECT2 OVERRIDE */
 .select2-container-multi .select2-choices {
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  -webkit-border-top-left-radius: 4px;
-  -moz-border-radius-topleft: 4px;
-  border-top-left-radius: 4px;
-  -webkit-border-top-right-radius: 4px;
-  -moz-border-radius-topright: 4px;
-  border-top-right-radius: 4px;
-  -webkit-border-bottom-left-radius: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  border-bottom-left-radius: 4px;
-  -webkit-border-bottom-right-radius: 4px;
-  -moz-border-radius-bottomright: 4px;
-  border-bottom-right-radius: 4px;
+  padding: 3px 5px 3px 5px;
+  border-radius: 3px;
+  line-height: 1;
 }
 /* Set close on right size */
 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 3px 20px 3px 5px !important;
-  line-height: normal;
 }
 .select2-container-multi .select2-search-choice-close {
   top: 3px;
@@ -1686,7 +1635,7 @@ h2 .description {
   opacity: .15 !important;
   cursor: default;
 }
-/* styles to adapt bootstrap3 to old bootstrap 2 behaviour */
+/* styles to normalize bootstrap3 to old bootstrap 2 behaviour */
 select,
 textarea,
 input[type="text"],
@@ -1704,9 +1653,8 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  padding: 4px 4px 4px 4px;
+  background-image: linear-gradient(to bottom, #eeeeee 1%, #ffffff 15%);
   border: 1px solid #ccc;
-  border-radius: 4px;
 }
 .box,
 .well {
@@ -1714,18 +1662,18 @@ input[type="color"],
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
   background: #f6f7f8;
   padding: 10px 12px;
   border: 0;
@@ -1754,23 +1702,23 @@ input[type="color"],
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
 }
 .menu-box li a:hover:last-child {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
 }
 .menu-box li a i {
   margin-right: 7px;
@@ -1818,21 +1766,18 @@ input[type="color"],
 .login #content-main {
   margin: 0;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
-  border-radius: 2px;
+  border-radius: 3px;
   background: white;
   padding: 0;
   /* Position hor/ver center */
-
   position: absolute;
   width: 340px;
   left: 50%;
   top: 35%;
   margin-left: -170px;
   /* Half the width of the DIV tag */
-
   margin-top: -100px;
   /* Half the height of the DIV tag */
-
 }
 .login #content-main h1 {
   font-size: 14px;
@@ -1853,12 +1798,12 @@ input[type="color"],
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
 }
 .login #content-main h1 i {
   margin-right: 5px;
@@ -1879,12 +1824,12 @@ input[type="color"],
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
 }
 .login #content-main .form-group {
   border: 0;
@@ -1936,10 +1881,8 @@ input[type="color"],
 }
 .left-nav > ul > li.active > a i {
   /* bs3 only requires color change of type */
-
   color: #fff;
   /*background-image: url(../img/glyphicons-halflings-white-shadow.png);*/
-
   opacity: 1;
 }
 .left-nav > ul > li.active > a:after {
@@ -2007,18 +1950,18 @@ input[type="color"],
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -2044,12 +1987,12 @@ input[type="color"],
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
   padding-top: 4px;
 }
 .left-nav > ul > li:not(.active):hover > ul > li:last-child {
@@ -2059,12 +2002,12 @@ input[type="color"],
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
   padding-bottom: 4px;
 }
 /* CALENDARS & CLOCKS */
@@ -2081,18 +2024,18 @@ input[type="color"],
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
 }
 .calendarbox h2,
 .clockbox h2,
@@ -2101,12 +2044,12 @@ input[type="color"],
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
   background-color: #e5e5e5;
   background-repeat: no-repeat;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#e5e5e5));
@@ -2253,9 +2196,9 @@ input[type="color"],
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
   -webkit-border-top-right-radius: 0;
   -moz-border-radius-topright: 0;
   border-top-right-radius: 0;
@@ -2275,9 +2218,9 @@ input[type="color"],
   -webkit-border-top-left-radius: 0;
   -moz-border-radius-topleft: 0;
   border-top-left-radius: 0;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
   -webkit-border-bottom-left-radius: 0;
   -moz-border-radius-bottomleft: 0;
   border-bottom-left-radius: 0;
@@ -2349,12 +2292,12 @@ div .datepicker {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 3px;
-  -moz-border-radius-topleft: 3px;
-  border-top-left-radius: 3px;
-  -webkit-border-top-right-radius: 3px;
-  -moz-border-radius-topright: 3px;
-  border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
   box-shadow: inset 1px 1px 0 #ffffff;
   text-decoration: none;
   color: #08c;
@@ -2395,8 +2338,6 @@ body {
   background-color: #edeff1;
   min-width: 960px;
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
 }
 body.popup {
   min-width: inherit;
@@ -2515,10 +2456,8 @@ a.append-icon i {
 .suit-columns {
   padding-left: 200px;
   /* LC fullwidth */
-
   padding-right: 40px;
   /* RC fullwidth + CC padding */
-
 }
 .suit-columns .suit-column {
   position: relative;
@@ -2528,10 +2467,8 @@ a.append-icon i {
   padding: 0;
 }
 #suit-center {
-  /* padding: 20px; */
-  padding: 20px 0 20px 20px;
+  padding: 20px;
   /* CC padding */
-
   width: 100%;
 }
 .popup #suit-center {
@@ -2541,51 +2478,45 @@ a.append-icon i {
 #suit-left {
   width: 200px;
   /* LC width */
-
   right: 200px;
   /* LC fullwidth + CC padding */
-
   margin-left: -100%;
 }
 #suit-right {
   width: 130px;
   /* RC width */
-
   padding: 0 10px;
   /* RC padding */
-
   margin-right: -190px;
   /* RC fullwidth + CC padding */
-
 }
 #push {
   clear: both;
 }
 /* styles to adapt bootstrap3 to old bootstrap 2 behaviour */
+div.related-widget-wrapper {
+  display: inline-flex;
+}
+div.related-widget-wrapper div.selector {
+  display: inherit;
+}
+div.related-widget-wrapper p.selector-filter img {
+  margin-right: 15px;
+}
+div.inline-group table input[type="checkbox"] {
+  margin-top: 3px;
+}
 /* uls left margin */
 .controls ul.radiolist {
   padding-left: 0;
 }
 /* todo how to make it work as the new li-inline */
-.btn:not([class*="btn-"]) { /* Prevent override BS3 buttons */
-  padding: 4px 12px;
-}
-.btn:not([class*=btn-]) {
-  font-size: 14px;
-  line-height: 15px;
-}
-div.related-widget-wrapper p.selector-filter img {
-  margin-right: 15px;
+.search-container .btn,
+.actions .btn {
+  padding: 3px 12px;
 }
 input#quick-search:focus {
   outline: 0;
-}
-.form-control.bs2-retro {
-  width: 220px;
-}
-/* Checkboxes HACK */
-.related-widget-wrapper ul {
-  padding-left: 0;
 }
 /* Print styles */
 @media print {
@@ -2623,3 +2554,4 @@ input#quick-search:focus {
     margin-right: 0;
   }
 }
+/*# sourceMappingURL=suit.css.map */

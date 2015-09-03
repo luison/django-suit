@@ -19,8 +19,22 @@
           <li class="separator"></li>
         {% else %}
           <li{{ app.is_active|yesno:' class=active,' }}>
-            <a href="{{ app.url }}"{{ app.blank|yesno:' target=_blank,' }}><i class="glyphicon glyph{% firstof app.icon 'icon-chevron-right' %}"></i>{% trans app.label|capfirst %}
-            </a>
+              <a href="{{ app.url }}"{{ app.blank|yesno:' target=_blank,' }}>
+                  {% if app.icon %}
+                      {% if "icon-" in app.icon %}
+                          {% if 'glyphicon-' in app.icon %}
+                              <i class="glyphicon {{ app.icon }}"></i>
+                          {% else %}
+                              <i class="glyphicon glyph{{ app.icon }}"></i>
+                          {% endif %}
+                      {% elif app.icon %}
+                          <i class="{{ app.icon }}"></i>
+                      {% endif %}
+                  {% else %}
+                      <i class="glyphicon glyphicon-chevron-right"></i>
+                  {% endif %}
+                  {% trans app.label|capfirst %}
+              </a>
             {% if app.models %}
               <ul>
                 {% for model in app.models %}

@@ -267,24 +267,26 @@ h2.legend, .form-horizontal fieldset .legend {
         }
     }
     .add-related, .related-lookup, .change-related {
-        .bs-icon;
+        //.bs-icon;
         display: inline-block;
-        padding: 4px;
+        //padding: 4px;
         border: 1px solid transparent;
-        padding-left: 6px;
+        padding: 0 4px;
         vertical-align: middle;
+        line-height: 1;
         img {
-            display: none;
+            // no tengo claro porque pero se necesita para los + y editar de options
+            //display: none;
         }
     }
     .add-related {
         //background-position: 1px -92px;
     }
     .related-lookup {
-        background-position: -42px 4px;
+        //background-position: -42px 4px;
     }
     .change-related {
-        background-position: 7px -68px;
+        //background-position: 7px -68px;
     }
     .vForeignKeyRawIdAdminField {
         width: 90px;
@@ -574,13 +576,17 @@ h3 {
 
 /* SELECT2 OVERRIDE */
 .select2-container-multi .select2-choices {
-    .border-radius(4px);
+    //moved to global class for normalize
+    &:extend(.select_inputs_def);
+    padding: 3px 5px 3px 5px;
+    border-radius: @border-radius;
+    line-height: 1;
 }
 
 /* Set close on right size */
 .select2-container-multi .select2-choices .select2-search-choice {
     padding: 3px 20px 3px 5px !important;
-    line-height: normal;
+    //line-height: normal;
 }
 .select2-container-multi .select2-search-choice-close {
     top: 3px;
@@ -598,6 +604,7 @@ h3 {
     text-shadow: 0 1px 0 #fff;
 }
 
+//
 .datetimeshortcuts {
     font-size: 11px;
     margin-left: 5px;
@@ -737,8 +744,9 @@ select:not([size]):not([multiple]), select[size="0"], select[size="1"] {
     cursor: default;
 }
 
+/* styles to normalize bootstrap3 to old bootstrap 2 behaviour */
+// TODO REMOVE
 
-/* styles to adapt bootstrap3 to old bootstrap 2 behaviour */
 select,
 textarea,
 input[type="text"],
@@ -756,7 +764,13 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  padding: 4px 4px 4px 4px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+
+    //migrated to specialized class var
+    .select_inputs_def;
+    //height: 28px;
 }
+
+textarea {
+    //line-height: 1.2;
+}
+

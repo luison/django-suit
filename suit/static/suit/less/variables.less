@@ -18,12 +18,12 @@
 @right-column-width: 180px;
 @padding: 20px; // Columns padding
 
-@border-radius: 2px;
+@border-radius: 3px;
 @border-color: #e7e7e7;
 @border-color-light: #EDEDED;
 
 //New BS3 compatible prep vars
-@bodyfontsize : 13px;
+@bodyfontsize : 12px;
 @ficon : 14px; //for new icon properties that render on :afters
 @ficon-color: @blue;
 @ficon-color-hover: @grey;
@@ -52,11 +52,13 @@
 
     //text-indent: -9999px;
     font-size:0px;
+  line-height: inherit;
     font-family: "Glyphicons Halflings";
+  text-decoration: none;
 
-    display: block;
-    width: 14px;
-    height: 14px;
+  //display: block;
+  //width: 14px;
+  //height: 14px;
 
     //background-image: url("../bootstrap/img/glyphicons-halflings.png");
     //background-position: 0 -96px;
@@ -66,4 +68,14 @@
     &:hover {
         opacity: 1;
     }
+}
+
+//NEW USEFUL reuse classes
+.select_inputs_def {
+  //activate if using standart BS3, not needed if using bootstrap 3 vars
+  //padding: 3px 5px 3px 5px;
+  //border-radius: @border-radius;
+  //line-height: 1;
+  background-image: linear-gradient(to bottom, #eee 1%, #fff 15%);
+  border: 1px solid #ccc;
 }

@@ -31,8 +31,9 @@ body {
     background-color: @bgcolor;
     min-width: 960px;
     margin: 0;
-    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: @bodyfontsize;
+    //moved to generated BS3 vars
+    //font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    //font-size: @bodyfontsize;
     &.popup {
         min-width: inherit;
     }
@@ -212,8 +213,28 @@ a.append-icon i {
 
 /* styles to adapt bootstrap3 to old bootstrap 2 behaviour */
 
+// div.related-widget icons for options
+div.related-widget-wrapper {
+    display: inline-flex;
+
+    //not valid on selector
+    div.selector {
+        display: inherit;
+    }
+
+    // search icon unpositioned in filter box
+    p.selector-filter img {
+        margin-right: 15px;
+    }
+}
+
+//fixing checkboxes valign in inlines
+div.inline-group table input[type="checkbox"] {
+    margin-top: 3px;
+}
+
 .help-block {
-    // todo si queremos ponerlo inline
+    // @todo make them back inline
     //display: inline-block;
     //margin-bottom: 0;
     //vertical-align: middle;
@@ -229,21 +250,17 @@ a.append-icon i {
 
 }
 
-.btn {
-    // Al buttons
-    padding: 4px 12px;
+// make buttons in search and action look like btn-sm to align with the inputs
+.search-container .btn, .actions .btn {
+    padding: 3px 12px;
 }
 
-.btn:not([class*=btn-]) {
-    // All buttons except new BS3 btn-*
-    font-size: 14px;
-    line-height: 15px;
-}
+//.btn:not([class*=btn-]) {
+//    // All buttons except new BS3 btn-*
+//    font-size: 14px;
+//    line-height: 15px;
+//}
 
-// search icon unpositioned in filter box
-div.related-widget-wrapper p.selector-filter img {
-    margin-right: 15px;
-}
 
 // Remove outline on focus for quick search
  input#quick-search:focus {
@@ -251,8 +268,11 @@ div.related-widget-wrapper p.selector-filter img {
 }
 
 //
-.form-control.bs2-retro {
-    width: 220px;
-}
+////.form-control.bs2-retro {
+//    width: 220px;
+//}
+
+
+
 
 @import 'print';
