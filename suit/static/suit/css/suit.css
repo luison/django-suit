@@ -1116,6 +1116,20 @@ h2.legend,
   display: inline-block;
   padding: 0 0 0 8px;
 }
+.form-group .add-related,
+.inline-group .add-related,
+.form-group .related-lookup,
+.inline-group .related-lookup,
+.form-group .change-related,
+.inline-group .change-related,
+.form-group .delete-related,
+.inline-group .delete-related {
+  display: inline-block;
+  border: 1px solid transparent;
+  padding: 0 1px 0 3px;
+  vertical-align: middle;
+  line-height: 1;
+}
 .form-group .related-widget-wrapper-link.change-related,
 .inline-group .related-widget-wrapper-link.change-related,
 .form-group .related-widget-wrapper-link.change-related:hover,
@@ -1129,18 +1143,6 @@ h2.legend,
 .form-group .related-widget-wrapper-link.change-related:link:hover,
 .inline-group .related-widget-wrapper-link.change-related:link:hover {
   opacity: 1;
-}
-.form-group .add-related,
-.inline-group .add-related,
-.form-group .related-lookup,
-.inline-group .related-lookup,
-.form-group .change-related,
-.inline-group .change-related {
-  display: inline-block;
-  border: 1px solid transparent;
-  padding: 0 4px;
-  vertical-align: middle;
-  line-height: 1;
 }
 .form-group .vForeignKeyRawIdAdminField,
 .inline-group .vForeignKeyRawIdAdminField {

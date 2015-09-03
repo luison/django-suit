@@ -69,15 +69,19 @@
 }
 .bs-icon {
   font-size: 0px;
+  line-height: inherit;
   font-family: "Glyphicons Halflings";
-  display: block;
-  width: 14px;
-  height: 14px;
+  text-decoration: none;
   opacity: .6;
   margin: 0;
 }
 .bs-icon:hover {
   opacity: 1;
+}
+
+.select_inputs_def {
+  background-image: linear-gradient(to bottom, #eeeeee 1%, #ffffff 15%);
+  border: 1px solid #ccc;
 }
 .change-list .filtered {
   background: inherit !important;
@@ -91,12 +95,12 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
   -webkit-border-bottom-left-radius: 0;
   -moz-border-radius-bottomleft: 0;
   border-bottom-left-radius: 0;
@@ -124,12 +128,12 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
   -webkit-border-bottom-left-radius: 0;
   -moz-border-radius-bottomleft: 0;
   border-bottom-left-radius: 0;
@@ -274,8 +278,9 @@
 }
 #changelist #sitemap .tree .tree-default li .col-actions a {
   font-size: 0px;
+  line-height: inherit;
   font-family: "Glyphicons Halflings";
-  display: block;
+  text-decoration: none;
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -309,8 +314,9 @@
 #changelist #sitemap .tree .tree-default li .viewpage,
 #changelist #sitemap .tree .tree-default li .publish {
   font-size: 0px;
+  line-height: inherit;
   font-family: "Glyphicons Halflings";
-  display: block;
+  text-decoration: none;
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -347,8 +353,9 @@
 }
 #changelist #sitemap .tree .tree-default li .col-lastchange .icon {
   font-size: 0px;
+  line-height: inherit;
   font-family: "Glyphicons Halflings";
-  display: block;
+  text-decoration: none;
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -453,8 +460,9 @@
 }
 #changelist #sitemap .tree .tree-default li .softroot-icon {
   font-size: 0px;
+  line-height: inherit;
   font-family: "Glyphicons Halflings";
-  display: block;
+  text-decoration: none;
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -554,18 +562,18 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
   margin-top: -47px;
   font-weight: bold;
   right: 20px;
@@ -662,8 +670,9 @@ body.cms-page .form-horizontal fieldset.plugin-holder .plugin-select-holder sele
 body.cms-page .form-horizontal fieldset.plugin-holder .plugin-select-holder .add-plugin,
 body.cms-page .form-horizontal fieldset.plugin-holder .plugin-select-holder .copy-plugins {
   font-size: 0px;
+  line-height: inherit;
   font-family: "Glyphicons Halflings";
-  display: block;
+  text-decoration: none;
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -754,18 +763,18 @@ ul.plugin-list li {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
   border: 1px solid #e7e7e7;
   margin-bottom: -1px;
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
@@ -831,8 +840,9 @@ ul.plugin-list li .descr {
 }
 ul.plugin-list li .delete {
   font-size: 0px;
+  line-height: inherit;
   font-family: "Glyphicons Halflings";
-  display: block;
+  text-decoration: none;
   display: inline-block;
   width: 14px;
   height: 14px;
@@ -909,18 +919,18 @@ body.plugin-change-form .plugin-preview {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
   font-size: 12px;
   font-weight: normal;
   margin-bottom: 5px;
@@ -977,18 +987,18 @@ body.plugin-change-form .plugin-preview img {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-border-top-left-radius: 2px;
-  -moz-border-radius-topleft: 2px;
-  border-top-left-radius: 2px;
-  -webkit-border-top-right-radius: 2px;
-  -moz-border-radius-topright: 2px;
-  border-top-right-radius: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  border-bottom-left-radius: 2px;
-  -webkit-border-bottom-right-radius: 2px;
-  -moz-border-radius-bottomright: 2px;
-  border-bottom-right-radius: 2px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-right-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  border-bottom-right-radius: 3px;
 }
 #text_form .form-group .controls .html-widget {
   display: inline-block;
