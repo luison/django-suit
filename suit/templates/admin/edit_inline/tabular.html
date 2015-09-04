@@ -22,7 +22,13 @@
      <tbody>
      {% for inline_admin_form in inline_admin_formset %}
         {% if inline_admin_form.form.non_field_errors %}
-        <tr><td colspan="{{ inline_admin_form|cell_count }}"><div class="form-group error"><div class="help-block">{{ inline_admin_form.form.non_field_errors }}</div></div></td></tr>
+            <tr>
+                <td colspan="{{ inline_admin_form|cell_count }}">
+                    <div class="form-group has-error error">
+                        <div class="help-block">{{ inline_admin_form.form.non_field_errors }}</div>
+                    </div>
+                </td>
+            </tr>
         {% endif %}
         <tr class="form-row {% cycle "row1" "row2" %} {% if inline_admin_form.original or inline_admin_form.show_url %}has_original{% endif %}{% if forloop.last %} empty-form{% endif %}"
              id="{{ inline_admin_formset.formset.prefix }}-{% if not forloop.last %}{{ forloop.counter0 }}{% else %}empty{% endif %}">
@@ -30,7 +36,8 @@
         {% for fieldset in inline_admin_form %}
           {% for line in fieldset %}
             {% for field in line %}
-              <td{% if field.field.name %} class="field-{{ field.field.name }}{{ field.field.errors|yesno:' form-group error,' }}{{ field.field.errors|yesno:' form-group error,' }}"{% endif %}>
+                <td{% if field.field.name %}class="field-
+                        {{ field.field.name }}{{ field.field.errors|yesno:' form-group has-error error,' }}"{% endif %}>
 
               {% if forloop.parentloop.first %}
                 {% if inline_admin_form.has_auto_field or inline_admin_form.needs_explicit_pk_field %}{{ inline_admin_form.pk_field.field }}{% endif %}

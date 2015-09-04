@@ -5,7 +5,7 @@
   <title>{% block title %}{{ title }} | {{ 'ADMIN_NAME'|suit_conf }}{% endblock %}</title>
   <link rel="stylesheet" type="text/css" href="{% block stylesheet %}{% endblock %}"/>
   <link rel="stylesheet" type="text/css" href="{% static 'suit/bootstrap/css/bootstrap.min.css' %}" media="all"/>
-{#  <link rel="stylesheet" type="text/css" href="{% static 'suit/bootstrap/css/bootstrap-skin.css' %}" media="all"/>#}
+    <link rel="stylesheet" type="text/css" href="{% static 'suit/bootstrap/css/theme.css' %}" media="all"/>
   <link rel="stylesheet" type="text/css" href="{% static 'suit/css/suit.css' %}" media="all">
   {% block extrastyle %}{% endblock %}
   {% if LANGUAGE_BIDI %}<link rel="stylesheet" type="text/css" href="{% block stylesheet_rtl %}{% static "admin/css/rtl.css" %}{% endblock %}"/>{% endif %}
@@ -14,13 +14,14 @@
   {% endif %}
     <!-- TODO: llevar abajo los JS -->
   <script type="text/javascript" src="{% static "admin/js/jquery.js" %}"></script>
-  {% block extrahead %}{% endblock %}
   {% block blockbots %}
   <script src="{% static 'suit/bootstrap/js/bootstrap.min.js' %}"></script>
   <script type="text/javascript">window.__admin_media_prefix__ = "{% filter escapejs %}{% static "admin/" %}{% endfilter %}";</script>
   <script type="text/javascript">var Suit = { $: $.noConflict() }; if (!$) $ = Suit.$; </script>
 
     <meta name="robots" content="NONE,NOARCHIVE"/>{% endblock %}
+
+    {% block extrahead %}{% endblock %}
 </head>
 {% load i18n %}
 

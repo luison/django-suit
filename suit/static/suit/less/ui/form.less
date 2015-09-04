@@ -168,6 +168,8 @@ h2.legend, .form-horizontal fieldset .legend {
             font-size: 11px;
             color: #999;
             line-height: normal;
+            // to unify them all under
+            display: block;
         }
 
         .help-inline ul, .radiolist {
@@ -260,9 +262,9 @@ h2.legend, .form-horizontal fieldset .legend {
         display: inline-block;
         //padding: 4px;
         border: 1px solid transparent;
-        padding: 0 1px 0 3px;
+        padding-right: 3px;
         vertical-align: middle;
-        line-height: 1;
+        line-height: 1.3;
         img {
             // no tengo claro porque pero se necesita para los + y editar de options
             //display: none;
@@ -607,6 +609,12 @@ h3 {
     text-shadow: 0 1px 0 #fff;
 }
 
+.select2-container {
+    //to accommodate related actions icons
+    padding-right: 5px;
+}
+
+
 //
 .datetimeshortcuts {
     font-size: 11px;
@@ -769,8 +777,8 @@ input[type="color"],
 .uneditable-input {
 
     //migrated to specialized class var
-    .select_inputs_def;
-    //height: 28px;
+    //.select_inputs_def;
+    //.select_inputs_def;
 }
 
 textarea {

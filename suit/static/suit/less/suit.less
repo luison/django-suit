@@ -215,8 +215,16 @@ a.append-icon i {
 
 // div.related-widget icons for options
 div.related-widget-wrapper {
-    display: inline-flex;
-
+    line-height: 1.5;
+    .checkbox {
+        padding-right: 10px;
+    }
+    //also available as controls.inline
+    &.inline {
+        .checkbox {
+            display: inline-flex;
+        }
+    }
     //not valid on selector
     div.selector {
         display: inherit;
@@ -228,16 +236,15 @@ div.related-widget-wrapper {
     }
 }
 
+.inline .related-widget-wrapper {
+    //also available as controls.inline
+    .checkbox {
+        display: inline-flex;
+    }
+}
 //fixing checkboxes valign in inlines
 div.inline-group table input[type="checkbox"] {
     margin-top: 3px;
-}
-
-.help-block {
-    // @todo make them back inline
-    //display: inline-block;
-    //margin-bottom: 0;
-    //vertical-align: middle;
 }
 
 /* uls left margin */
@@ -272,6 +279,7 @@ div.inline-group table input[type="checkbox"] {
 //    width: 220px;
 //}
 
+// fix tests for columns and some behaviour change via
 
 
 

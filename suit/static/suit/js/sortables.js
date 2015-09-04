@@ -78,7 +78,7 @@
 
         $inputs.each(function () {
             var $inline_sortable = $('<div class="inline-sortable"/>'),
-                icon = '<i class="icon-arrow-up icon-alpha5"></i>',
+                icon = '<i class="glyphicon glyphicon-arrow-up icon-alpha5"></i>',
                 $sortable = $(this),
                 is_stacked = $sortable.hasClass('suit-sortable-stacked');
 

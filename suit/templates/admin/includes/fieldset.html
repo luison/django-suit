@@ -8,7 +8,7 @@
         </h2>{% endif %}
   {% for line in fieldset %}
     {% with singlefield=line.fields|length_is:'1' %}
-      <div class="form-group form-row{% if line.errors %} {{ singlefield|yesno:'error,first-error' }} errors{% endif %}{% for field in line %}{% if field.field.name %} field-{{ field.field.name }}{% endif %} {{ field.field.field.widget.attrs.rowclass }}{% endfor %}{{ singlefield|yesno:',multi-field-row' }}">
+        <div class="form-group form-row{% if line.errors %} {{ singlefield|yesno:'has-error error,first-error' }} has-errors error {% endif %}{% for field in line %}{% if field.field.name %} field-{{ field.field.name }}{% endif %} {{ field.field.field.widget.attrs.rowclass }}{% endfor %}{{ singlefield|yesno:',multi-field-row' }}">
         {% for field in line %}
           {% spaceless %}
 
@@ -20,7 +20,7 @@
             <div class="control-label">
                 {{ field.label_tag }}
             </div>
-            <div class="controls">
+            <div class="controls form-inline">
             {# if multi-fields and first field #}
             {% if not singlefield %}
               <div class="multi-field-box">
@@ -33,7 +33,8 @@
             {{ field.label_tag }}
         {% endif %}
 
-        {% if not field.is_readonly and field.errors %}<div class="inline error errors">{% endif %}
+          {% if not field.is_readonly and field.errors %}
+              <div class="inline error errors has-error">{% endif %}
 
         {# If multi-fields and wrap controls too #}
          {% if not singlefield %}

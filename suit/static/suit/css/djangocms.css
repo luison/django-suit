@@ -78,10 +78,9 @@
 .bs-icon:hover {
   opacity: 1;
 }
-
 .select_inputs_def {
   background-image: linear-gradient(to bottom, #eeeeee 1%, #ffffff 15%);
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
 }
 .change-list .filtered {
   background: inherit !important;
