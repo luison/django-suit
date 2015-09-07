@@ -7,51 +7,39 @@
  * http://creativecommons.org/licenses/by-nc/3.0/
  *
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000335}}
 .white-shadow {
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000336}}
 .white-shadow-max {
   text-shadow: 0 1px #ffffff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000337}}
 .grey-box-shadow {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000338}}
 .greyer-box-shadow {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000339}}
 .white-inset {
   box-shadow: inset 1px 1px 0 #ffffff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000340}}
 .color-grey {
   color: #999999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000341}}
 .inline-block {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000342}}
 .inline {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000343}}
 .f11 {
   font-size: 11px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000344}}
 .f12 {
   font-size: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000345}}
 .f14 {
   font-size: 14px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000346}}
 .blue-gradient {
   background-color: #5295b0;
   background-repeat: no-repeat;
@@ -63,7 +51,6 @@
   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#83b3c3', EndColorStr='#5295b0', GradientType=0);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#83b3c3', EndColorStr='#5295b0', GradientType=0))";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000347}}
 .grey-gradient {
   background-color: #e5e5e5;
   background-repeat: no-repeat;
@@ -75,25 +62,20 @@
   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#f3f3f3', EndColorStr='#e5e5e5', GradientType=0);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#e5e5e5', GradientType=0))";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000348}}
 .bold {
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000349}}
 .auto-width {
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000350}}
 .clear {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000351}}
 .hide-text {
   text-indent: 200%;
   white-space: nowrap;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000352}}
 .bs-icon {
   font-size: 0px;
   line-height: inherit;
@@ -102,11 +84,9 @@
   opacity: .6;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000370}}
 .bs-icon:hover {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000376}}
 .select_inputs_def,
 .select2-container-multi .select2-choices {
   background-image: linear-gradient(to bottom, #eeeeee 1%, #ffffff 15%);
@@ -114,14 +94,12 @@
 }
 /* Sticky footer styles
 -------------------------------------------------- */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/sticky-footer\.less}line{font-family:\000034}}
 html,
 body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
 /* Wrapper for page content to push down footer */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/sticky-footer\.less}line{font-family:\0000311}}
 #wrap {
   min-height: 100%;
   height: auto !important;
@@ -130,14 +108,12 @@ body {
   margin: 0 auto -60px;
 }
 /* Set the fixed height of the footer here */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/sticky-footer\.less}line{font-family:\0000320}}
 #push,
 #footer {
   height: 60px;
 }
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/sticky-footer\.less}line{font-family:\0000331}}
   #footer {
     margin-left: -20px;
     margin-right: -20px;
@@ -145,7 +121,6 @@ body {
     padding-right: 20px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\000031}}
 .header {
   color: #d4d4d4;
   height: 45px;
@@ -161,7 +136,6 @@ body {
   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#3f4345', EndColorStr='#373b3d', GradientType=1);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#3f4345', EndColorStr='#373b3d', GradientType=1))";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\000037}}
 .header .header-content {
   float: left;
   height: 45px;
@@ -169,32 +143,26 @@ body {
   line-height: normal;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000315}}
 .header .header-content.header-content-first {
   border-left: 1px solid #45494c;
   margin-right: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000320}}
 .header .header-content .time {
   font-weight: bold;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000325}}
 .header .header-content .header-column {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000327}}
 .header .header-content .header-column i {
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000334}}
 .header #branding {
   height: 45px;
   float: left;
   min-width: 200px;
   border-right: 1px solid #2f3334;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000340}}
 .header #branding h1 {
   color: white;
   font-size: 18px;
@@ -202,44 +170,35 @@ body {
   padding: 0;
   text-shadow: 0 -1px #121414;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000348}}
 .header #branding a {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000351}}
 .header #branding a:hover h1 {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000359}}
 .header a {
   color: #92D1EE;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000362}}
 .header a:hover {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000365}}
 .header a.grey {
   color: #d4d4d4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000370}}
 .header #user-tools {
   padding: 12px 20px 0 0;
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000373}}
 .header #user-tools .user-links {
   display: inline-block;
   margin-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/header\.less}line{font-family:\0000377}}
 .header #user-tools .separator {
   color: #999;
   display: inline-block;
   margin: 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/footer\.less}line{font-family:\000031}}
 .footer {
   color: #666;
   background-color: #d5d7d8;
@@ -247,41 +206,34 @@ body {
   line-height: 1.5em;
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/footer\.less}line{font-family:\000039}}
 .footer .content {
   border-top: 5px solid #E1E3E5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/footer\.less}line{font-family:\0000312}}
 .footer .content .tools {
   float: left;
   padding: 15px 0 0 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/footer\.less}line{font-family:\0000317}}
 .footer .content .branding {
   padding: 15px 0 0 0;
   margin: 0px auto;
   width: 200px;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/footer\.less}line{font-family:\0000324}}
 .footer .content .copyright {
   padding: 9px 20px 0 0;
   float: right;
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/left-column\.less}line{font-family:\000032}}
 .nav-quick-search {
   margin: 20px 0 2px 15px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/left-column\.less}line{font-family:\000035}}
 .nav-quick-search .search-query {
   border-radius: 15px;
   width: 150px;
   padding: 3px 10px;
   background: #f6f7f8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/left-column\.less}line{font-family:\0000311}}
 .nav-quick-search .submit {
   background: transparent;
   border: 0;
@@ -293,7 +245,6 @@ body {
   top: 3px;
 }
 /* Django admin original class - support for Admin original html structure */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/breadcrumb\.less}line{font-family:\000032}}
 .breadcrumbs {
   font-size: 14px;
   padding: 8px 15px 8px 10px;
@@ -317,54 +268,44 @@ body {
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
   color: #666;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/breadcrumb\.less}line{font-family:\0000310}}
 .breadcrumbs > a {
   display: inline-block;
   padding: 0 3px;
   text-shadow: 0 1px 0 #ffffff;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/breadcrumb\.less}line{font-family:\0000315}}
 .breadcrumbs > a > .divider {
   padding: 0 5px;
   color: #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/breadcrumb\.less}line{font-family:\0000319}}
 .breadcrumbs > a > .active {
   font-weight: bold;
   color: #666;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/breadcrumb\.less}line{font-family:\0000329}}
 .breadcrumbs > .active {
   color: #999999;
 }
 /* NEW CLASS based on BS */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/breadcrumb\.less}line{font-family:\0000334}}
 .breadcrumb {
   margin: -5px 0 15px;
   font-size: 14px;
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/breadcrumb\.less}line{font-family:\0000339}}
 .breadcrumb li a {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/breadcrumb\.less}line{font-family:\0000341}}
 .breadcrumb li a:hover {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/breadcrumb\.less}line{font-family:\0000345}}
 .breadcrumb li.active,
 .breadcrumb li.active a {
   font-weight: bold;
   color: #333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/breadcrumb\.less}line{font-family:\0000350}}
 .breadcrumb.toplinks {
   font-size: 12px;
   margin-bottom: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\000031}}
 .table-overview {
   border-spacing: 0;
   margin-bottom: 18px;
@@ -373,71 +314,58 @@ body {
   width: auto;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\000038}}
 .table-overview td,
 .table-overview th {
   padding: 8px 20px 8px 15px;
   font-weight: normal;
   font-size: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000313}}
 .table-overview th:first-child {
   min-width: 145px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000316}}
 .table-overview th {
   text-align: right;
   border-right: 1px solid #EDEDED;
   border-bottom: 1px solid #EDEDED;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000322}}
 .table-overview td {
   background-color: #F6F7F8;
   border-bottom: 1px solid #f1f1f1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000327}}
 .table-overview tr:last-child td,
 .table-overview tr:last-child th {
   border-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000331}}
 .table-overview tr:first-child td {
   border-top-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000334}}
 .table-overview tr:last-child td {
   border-bottom-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000337}}
 .table-overview tr:first-child th,
 .table-overview tr:first-child td {
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000340}}
 .table-overview tr:last-child th,
 .table-overview tr:last-child td {
   padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000343}}
 .table-overview caption {
   text-align: left;
   margin-bottom: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000346}}
 .table-overview caption a {
   font-size: 17px;
   font-weight: normal;
   margin: 0 0 5px 5px;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000352}}
 .table-overview tr.header-row:first-child th {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   border-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000357}}
 .table-overview tr.header-row th {
   text-align: center;
   font-weight: bold;
@@ -457,42 +385,34 @@ body {
   padding: 5px 10px;
   color: #333333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000372}}
 .table th,
 .table td {
   box-shadow: inset 1px 1px 0 #ffffff;
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000377}}
 .table th input,
 .table td input {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000380}}
 .table th a,
 .table td a {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000382}}
 .table th a:hover,
 .table td a:hover {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000386}}
 .table th p,
 .table td p {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000391}}
 .table tr:not(:first-child) th,
 .table tr:not(:first-child) td {
   border-top: 1px solid #eee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000395}}
 .table thead {
   line-height: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\0000397}}
 .table thead th,
 .table thead td {
   padding: 0;
@@ -509,12 +429,10 @@ body {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#e5e5e5', GradientType=0))";
   box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003103}}
 .table thead th div,
 .table thead td div {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003107}}
 .table thead th .text > a,
 .table thead td .text > a,
 .table thead th .text > span,
@@ -523,36 +441,30 @@ body {
   margin: -6px -10px;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003114}}
 .table thead th {
   vertical-align: middle;
   line-height: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003117}}
 .table thead th .relative-wrapper {
   position: relative;
   display: inline;
   float: right;
   width: 55px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003123}}
 .table thead th .sortoptions {
   margin-top: 2px;
   right: -55px;
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003127}}
 .table thead th .sortoptions a,
 .table thead th .sortoptions span {
   display: inline-block;
   float: left;
   padding: 0 9px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003134}}
 .table thead th .sortoptions .sortpriority {
   color: #777;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003139}}
 .table thead th .sortoptions .sortremove,
 .table thead th .sortoptions .toggle {
   display: block;
@@ -562,24 +474,19 @@ body {
   background-image: url("../bootstrap/img/glyphicons-halflings.png");
   background-position: -309px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003146}}
 .table thead th .sortoptions .sortremove:hover,
 .table thead th .sortoptions .toggle:hover {
   opacity: 0.8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003150}}
 .table thead th .sortoptions .sortremove {
   margin-right: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003154}}
 .table thead th .sortoptions .toggle.ascending {
   background-position: -310px -119px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003157}}
 .table thead th .sortoptions .toggle.descending {
   background-position: -285px -120px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003162}}
 .table thead th.sorted {
   padding-right: 55px;
   background-color: #dddddd;
@@ -592,11 +499,9 @@ body {
   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#e7e7e7', EndColorStr='#dddddd', GradientType=0);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#e7e7e7', EndColorStr='#dddddd', GradientType=0))";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003167}}
 .table thead th.action-checkbox-column {
   width: 33px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003175}}
 .inline-group .tabular table.table tr.add-row td {
   background-color: #e2e2e2;
   background-repeat: no-repeat;
@@ -610,117 +515,95 @@ body {
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
   padding-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003180}}
 .inline-group .tabular table.table td.delete {
   text-align: center;
   width: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003184}}
 .inline-group .tabular table.table td .help-block {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003190}}
 .table .add-row a,
 .add-row a {
   font-size: 11px;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003193}}
 .table .add-row a:hover,
 .add-row a:hover {
   text-decoration: none;
 }
 /* Fix BS row styles for TH cells */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003204}}
 .table tbody > tr.error,
 .table tbody > tr.warning,
 .table tbody > tr.info,
 .table tbody > tr.success {
   box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003208}}
 .table tbody > tr.error > td,
 .table tbody > tr.error > th {
   background-color: #f2dede;
   border-top: 1px solid #eed3d3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003214}}
 .table tbody > tr.warning > td,
 .table tbody > tr.warning > th {
   background-color: #fcf8e3;
   border-top: 1px solid #f8efbe;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003220}}
 .table tbody > tr.info > td,
 .table tbody > tr.info > th {
   background-color: #d9edf7;
   border-top: 1px solid #c4e3f3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003226}}
 .table tbody > tr.success > td,
 .table tbody > tr.success > th {
   background-color: #dff0d8;
   border-top: 1px solid #d0e9c6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003233}}
 .table-hover tbody > tr.error:hover > th {
   background-color: #ebcccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003236}}
 .table-hover tbody > tr.warning:hover > th {
   background-color: #faf2cc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003239}}
 .table-hover tbody > tr.info:hover > th {
   background-color: #c4e3f3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003242}}
 .table-hover tbody > tr.success:hover > th {
   background-color: #d0e9c6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003252}}
 .table-striped.table-hover tbody > tr.selected:hover > td,
 .table-striped.table-hover tbody > tr.selected:hover > th {
   background-color: #6ea6b9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003257}}
 .table-striped.table-hover tbody > tr.selected:hover:nth-child(odd) > td,
 .table-striped.table-hover tbody > tr.selected:hover:nth-child(odd) > th {
   background-color: #6ea6b9;
 }
 /* Fix text-alignment classes for tables */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003265}}
 .table th.text-left,
 .table td.text-left {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003268}}
 .table th.text-center,
 .table td.text-center {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003271}}
 .table th.text-right,
 .table td.text-right {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003277}}
 .table-bordered th:not(:first-child),
 .table-bordered td:not(:first-child) {
   border-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003280}}
 .table-bordered th:not(:first-child),
 .table-bordered td:not(:first-child) {
   border-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003285}}
 .table.table-condensed tbody th,
 .table.table-condensed tbody td {
   font-weight: normal;
   padding: 5px 10px 4px 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003293}}
 .table tbody > tr.selected > th,
 .table tbody > tr.selected > td {
   background-color: #83b3c3;
@@ -729,57 +612,46 @@ body {
   color: white;
   text-shadow: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003299}}
 .table tbody > tr.selected > th a,
 .table tbody > tr.selected > td a {
   color: white;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003302}}
 .table tbody > tr.selected > th a:hover,
 .table tbody > tr.selected > td a:hover {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003309}}
 .table tbody > tr.selected:nth-child(odd) > td,
 .table tbody > tr.selected:nth-child(odd) > th {
   background-color: #8db9c8;
 }
 /* TabularInlines Sortables */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003316}}
 .inline-sortable {
   white-space: nowrap;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003318}}
 .inline-sortable a {
   display: inline-block;
   padding: 2px 6px 2px 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003321}}
 .inline-sortable a:last-child {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003325}}
 .inline-sortable a:hover .icon-alpha5 {
   opacity: .5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003332}}
 .selected td .inline-sortable a i,
 .selected td .inline-sortable a:hover i {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003336}}
 tr:first-child td .inline-sortable .sortable-up {
   opacity: .15;
   cursor: default;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/table\.less}line{font-family:\00003341}}
 tr.form-row:nth-last-child(3) td .inline-sortable .sortable-down,
 #result_list tr:last-child td .inline-sortable .sortable-down {
   opacity: .15;
   cursor: default;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/actionlist\.less}line{font-family:\000031}}
 .actionlist {
   margin: 0;
   padding: 0;
@@ -802,22 +674,18 @@ tr.form-row:nth-last-child(3) td .inline-sortable .sortable-down,
   background: white;
   min-width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/actionlist\.less}line{font-family:\000038}}
 .actionlist li {
   font-size: 11px;
   list-style: none;
   border-bottom: 1px solid #f5f5f5;
   padding: 3px 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/actionlist\.less}line{font-family:\0000313}}
 .actionlist li:nth-child(2n) {
   background-color: #f6f7f8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/actionlist\.less}line{font-family:\0000316}}
 .actionlist li:first-child {
   padding-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/actionlist\.less}line{font-family:\0000319}}
 .actionlist li:last-child {
   padding-bottom: 5px;
   border: 0;
@@ -831,108 +699,86 @@ tr.form-row:nth-last-child(3) td .inline-sortable .sortable-down,
   -moz-border-radius-bottomright: 3px;
   border-bottom-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/actionlist\.less}line{font-family:\0000324}}
 .actionlist li i {
   float: left;
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/actionlist\.less}line{font-family:\0000328}}
 .actionlist li.deletelink {
   color: #999999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/actionlist\.less}line{font-family:\0000331}}
 .actionlist li .deleted-entry {
   color: #333333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/actionlist\.less}line{font-family:\0000336}}
 .applist td:last-child {
   min-width: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\000031}}
 .object-tools {
   float: right;
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\000034}}
 .object-tools .btn {
   margin-left: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\000039}}
 .actions {
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000311}}
 .actions label {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000315}}
 .below-actions .changelist-save {
   margin-top: -43px;
 }
 /* CHANGELISTS */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000321}}
 .change-list .hiddenfields {
   display: none;
 }
 /* ACTIONS */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000327}}
 #changelist .actions span.all,
 #changelist .actions span.action-counter,
 #changelist .actions span.clear,
 #changelist .actions span.question {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000334}}
 #changelist #action-toggle {
   display: none;
 }
 /* Decided to hide action label */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000339}}
 #changelist .actions span.action-label {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000343}}
 #toolbar form {
   margin: 0 0 15px 0;
 }
 /* Search multi-line wrap top margin */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000348}}
 .search-container {
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000355}}
 .search-container input[type="radio"],
 .search-container input[type="checkbox"] {
   margin-top: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000358}}
 .search-container .result-count {
   display: inline-block;
   margin: 5px 0 0 5px;
   white-space: nowrap;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/list\.less}line{font-family:\0000364}}
 .search-container .active {
   border-color: orange;
   box-shadow: 0 0 1px 0px orange;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/pagination\.less}line{font-family:\000031}}
 .pagination-block {
   margin: 15px 0 15px 0;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/pagination\.less}line{font-family:\000035}}
 .pagination {
   padding: 0;
   margin: 0 20px 0 0;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/pagination\.less}line{font-family:\000039}}
 .pagination ul {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/pagination\.less}line{font-family:\0000312}}
 .pagination ul li.active a,
 .pagination ul li.active span {
   color: #fff;
@@ -955,19 +801,16 @@ tr.form-row:nth-last-child(3) td .inline-sortable .sortable-down,
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/pagination\.less}line{font-family:\0000328}}
 .pagination ul li a,
 .pagination ul li span {
   line-height: 26px;
   padding: 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/pagination\.less}line{font-family:\0000334}}
 .pagination-info {
   display: block;
   float: left;
   margin: 5px 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\000031}}
 h2.legend,
 .form-horizontal fieldset .legend {
   font-weight: bold;
@@ -976,7 +819,6 @@ h2.legend,
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
   padding-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\000039}}
 .form-horizontal fieldset {
   display: table;
   width: 100%;
@@ -1002,16 +844,13 @@ h2.legend,
   /* Position attr change for collapsed */
   /* COLLAPSE LOGIC */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000316}}
 .form-horizontal fieldset.first,
 .popup .form-horizontal fieldset:first-of-type {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000319}}
 .form-horizontal fieldset.first:not(:first-of-type) {
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000322}}
 .form-horizontal fieldset .legend {
   border: 0;
   margin: -30px 0 0 0;
@@ -1022,7 +861,6 @@ h2.legend,
   overflow: hidden;
   margin-right: 220px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000331}}
 .form-horizontal fieldset .legend .description {
   font-weight: normal;
   font-size: 12px;
@@ -1030,26 +868,21 @@ h2.legend,
   margin-left: 20px;
   color: #999999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000341}}
 .form-horizontal fieldset.collapse {
   overflow: visible;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000346}}
 .form-horizontal fieldset.collapsed {
   background-color: #f6f7f8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000348}}
 .form-horizontal fieldset.collapsed .legend {
   position: static;
   font-size: 13px;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000354}}
 .form-horizontal fieldset.full-width {
   box-shadow: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000356}}
 .form-horizontal fieldset.full-width .form-group {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -1069,16 +902,13 @@ h2.legend,
   width: 100%;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000360}}
 .form-horizontal fieldset.full-width .form-group > div {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000363}}
 .form-horizontal fieldset.full-width .form-group .control-label {
   display: none;
   width: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000367}}
 .form-horizontal fieldset.full-width .form-group .controls {
   display: block;
   margin: 0;
@@ -1101,47 +931,38 @@ h2.legend,
   -moz-border-radius-bottomright: 3px;
   border-bottom-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000374}}
 .form-horizontal fieldset.full-width .form-group .controls .html-widget {
   display: inline-block;
   margin: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000382}}
 .form-horizontal fieldset.wide .control-label {
   min-width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000387}}
 .form-horizontal fieldset.collapsed * {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000390}}
 .form-horizontal fieldset.collapsed .legend,
 .form-horizontal fieldset.collapsed .legend *,
 .form-horizontal fieldset.collapsed {
   display: block !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000393}}
 .form-horizontal fieldset.collapsed .collapse-toggle {
   background: transparent;
   display: inline !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\0000398}}
 .form-horizontal .submit-row-bottom {
   margin: 20px 0 0 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003101}}
 .form-horizontal .form-group {
   display: table-header-group;
   margin: 0;
   /* Some BS form global overrides */
   /* Inline forms fields */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003104}}
 .form-horizontal .form-group > div {
   display: table-row;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003108}}
 .form-horizontal .form-group .control-label {
   background: white;
   display: table-cell;
@@ -1151,13 +972,11 @@ h2.legend,
   border-bottom: 1px solid #ededed;
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003116}}
 .form-horizontal .form-group .control-label label {
   font-weight: normal;
   padding: 0;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003122}}
 .form-horizontal .form-group .controls {
   display: table-cell;
   vertical-align: top;
@@ -1167,21 +986,17 @@ h2.legend,
   padding: 5px 15px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003131}}
 .form-horizontal .form-group .controls p {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003134}}
 .form-horizontal .form-group .controls label.inline {
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003137}}
 .form-horizontal .form-group .controls .readonly {
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003145}}
 .form-horizontal .form-group:first-child .control-label,
 .form-horizontal .form-group:first-of-type .control-label {
   padding-top: 15px;
@@ -1192,7 +1007,6 @@ h2.legend,
   -moz-border-radius-topleft: 3px;
   border-top-left-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003149}}
 .form-horizontal .form-group:first-child .controls,
 .form-horizontal .form-group:first-of-type .controls {
   padding-top: 10px;
@@ -1203,7 +1017,6 @@ h2.legend,
   -moz-border-radius-topright: 3px;
   border-top-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003155}}
 .form-horizontal .form-group:last-child .control-label,
 .form-horizontal .form-group:last-of-type .control-label {
   padding-bottom: 10px;
@@ -1215,7 +1028,6 @@ h2.legend,
   -moz-border-radius-bottomleft: 3px;
   border-bottom-left-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003160}}
 .form-horizontal .form-group:last-child .controls,
 .form-horizontal .form-group:last-of-type .controls {
   padding-bottom: 10px;
@@ -1226,7 +1038,6 @@ h2.legend,
   -moz-border-radius-bottomright: 3px;
   border-bottom-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003167}}
 .form-horizontal .form-group .help-block,
 .form-horizontal .form-group .help-inline {
   font-size: 11px;
@@ -1234,47 +1045,38 @@ h2.legend,
   line-height: normal;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003175}}
 .form-horizontal .form-group .help-inline ul,
 .form-horizontal .form-group .radiolist {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003177}}
 .form-horizontal .form-group .help-inline ul li,
 .form-horizontal .form-group .radiolist li {
   list-style: none;
   padding: 0 10px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003182}}
 .form-horizontal .form-group .help-icon {
   margin: 1px 0 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003188}}
 .form-horizontal .form-group .field-box .controls label {
   float: left;
   display: inline-block;
   margin: 5px 10px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003192}}
 .form-horizontal .form-group .field-box .controls label.required {
   margin-right: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003196}}
 .form-horizontal .form-group .field-box .controls .multi-field-box {
   margin-top: 5px;
   float: left;
   margin-right: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003200}}
 .form-horizontal .form-group .field-box .controls .multi-field-box .multi-field-controls {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003203}}
 .form-horizontal .form-group .field-box .controls .multi-field-box .help-block {
   display: block;
   margin: 3px 0 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003209}}
 .form-horizontal .form-group .field-box .controls .error .control-label,
 .form-horizontal .form-group .field-box .controls .error .help-block,
 .form-horizontal .form-group .field-box .controls .error .help-inline,
@@ -1282,48 +1084,39 @@ h2.legend,
 .form-horizontal .form-group .field-box .controls .error.multi-field-box label {
   color: #b94a48;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003212}}
 .form-horizontal .form-group .field-box .controls .error input,
 .form-horizontal .form-group .field-box .controls .error select,
 .form-horizontal .form-group .field-box .controls .error textarea {
   border-color: #b94a48;
   color: #b94a48;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003218}}
 .form-horizontal .form-group .field-box .controls:not(:first-child) .control-label {
   width: auto;
   margin-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003222}}
 .form-horizontal .form-group .field-box .controls:not(:first-child) .controls {
   float: left;
   margin-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003228}}
 .form-horizontal .form-group.first-error .control-label {
   color: #b94a48;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003232}}
 .form-horizontal .form-group.multi-field-row .controls {
   padding-top: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003236}}
 .form-horizontal .form-group.multi-field-row:first-child .controls,
 .form-horizontal .form-group.multi-field-row:first-of-type .controls {
   padding-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003247}}
 .popup .one-column {
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003254}}
 .form-group .add-another,
 .inline-group .add-another {
   text-decoration: none;
   display: inline-block;
   padding: 0 0 0 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003260}}
 .form-group .add-related,
 .inline-group .add-related,
 .form-group .related-lookup,
@@ -1338,44 +1131,36 @@ h2.legend,
   vertical-align: middle;
   line-height: 1.3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003284}}
 .form-group .related-widget-wrapper-link.change-related,
 .inline-group .related-widget-wrapper-link.change-related,
 .form-group .related-widget-wrapper-link.change-related:hover,
 .inline-group .related-widget-wrapper-link.change-related:hover {
   opacity: .2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003287}}
 .form-group .related-widget-wrapper-link.change-related:link,
 .inline-group .related-widget-wrapper-link.change-related:link {
   opacity: .6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003289}}
 .form-group .related-widget-wrapper-link.change-related:link:hover,
 .inline-group .related-widget-wrapper-link.change-related:link:hover {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003296}}
 .form-group .vForeignKeyRawIdAdminField,
 .inline-group .vForeignKeyRawIdAdminField {
   width: 90px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003302}}
 .alert > ul {
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003304}}
 .alert > ul ul {
   margin-top: 5px;
   margin-bottom: 5px;
 }
 /* Stacked & Tabular */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003312}}
 .empty-form,
 tr.empty-form {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003316}}
 h3 {
   font-weight: bold;
   font-size: 16px;
@@ -1385,21 +1170,17 @@ h3 {
   margin: 0;
 }
 /* STACKED */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003328}}
 .form-horizontal .inline-group > h2 {
   margin-top: 11px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003331}}
 .form-horizontal .inline-group fieldset:first-of-type {
   margin: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003334}}
 .form-horizontal .inline-group .inline-related {
   z-index: 2;
   position: relative;
   border-bottom: 1px solid #eee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003339}}
 .form-horizontal .inline-group .add-row {
   z-index: 1;
   position: relative;
@@ -1432,11 +1213,9 @@ h3 {
   border-bottom-right-radius: 3px;
   border: 1px solid #ddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003348}}
 .form-horizontal .inline-group .add-row a {
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003354}}
 .form-horizontal .inline-related fieldset {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -1449,7 +1228,6 @@ h3 {
   border-top-right-radius: 0;
   margin: 40px 0 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003360}}
 .form-horizontal .inline-related fieldset:first-of-type .form-group:first-child,
 .form-horizontal .inline-related fieldset:first-of-type .form-group:first-of-type {
   -moz-background-clip: padding;
@@ -1468,7 +1246,6 @@ h3 {
   -moz-border-radius-bottomright: 0;
   border-bottom-right-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003362}}
 .form-horizontal .inline-related fieldset:first-of-type .form-group:first-child .control-label,
 .form-horizontal .inline-related fieldset:first-of-type .form-group:first-of-type .control-label {
   -moz-background-clip: padding;
@@ -1478,7 +1255,6 @@ h3 {
   -moz-border-radius-topleft: 0;
   border-top-left-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003365}}
 .form-horizontal .inline-related fieldset:first-of-type .form-group:first-child .controls,
 .form-horizontal .inline-related fieldset:first-of-type .form-group:first-of-type .controls {
   -moz-background-clip: padding;
@@ -1488,11 +1264,9 @@ h3 {
   -moz-border-radius-topright: 0;
   border-top-right-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003371}}
 .form-horizontal .inline-related fieldset.first {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003375}}
 .form-horizontal .inline-related h3 {
   font-size: 12px;
   overflow: auto;
@@ -1523,95 +1297,77 @@ h3 {
   -moz-border-radius-bottomright: 0;
   border-bottom-right-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003382}}
 .form-horizontal .inline-related h3 b {
   display: inline-block;
   min-width: 180px;
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003389}}
 .form-horizontal .inline-related h3 span.delete,
 .form-horizontal .inline-related h3 span:last-child {
   float: right;
   margin-right: 10px;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003397}}
 .form-horizontal .inline-related:not(:first-of-type) h3 {
   margin-top: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003401}}
 .form-horizontal .inline-related span {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003404}}
 .form-horizontal .inline-related span.delete input {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003407}}
 .form-horizontal .inline-related span.delete label {
   padding: 7px 0 0 5px;
   vertical-align: middle;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003414}}
 .form-horizontal .inline-related.tabular {
   margin-top: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003416}}
 .form-horizontal .inline-related.tabular fieldset {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003418}}
 .form-horizontal .inline-related.tabular fieldset > h2 {
   margin-top: -4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003422}}
 .form-horizontal .inline-related.tabular table {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003425}}
 .form-horizontal .inline-related.tabular table td .errorlist {
   margin-bottom: 5px;
   font-size: 11px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003429}}
 .form-horizontal .inline-related.tabular table td.form-group {
   display: table-cell;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003436}}
 .form-horizontal .form-group .controls .selector {
   overflow: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003438}}
 .form-horizontal .form-group .controls .selector .selector-available,
 .form-horizontal .form-group .controls .selector .selector-chooser,
 .form-horizontal .form-group .controls .selector .selector-chosen {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003440}}
 .form-horizontal .form-group .controls .selector .selector-available h2,
 .form-horizontal .form-group .controls .selector .selector-chooser h2,
 .form-horizontal .form-group .controls .selector .selector-chosen h2 {
   margin-left: 5px;
   font-size: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003444}}
 .form-horizontal .form-group .controls .selector .selector-available > a,
 .form-horizontal .form-group .controls .selector .selector-chooser > a,
 .form-horizontal .form-group .controls .selector .selector-chosen > a {
   margin-left: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003450}}
 .form-horizontal .form-group .controls .selector.stacked .selector-available,
 .form-horizontal .form-group .controls .selector.stacked .selector-chosen {
   width: 100%;
   min-width: 150px;
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003454}}
 .form-horizontal .form-group .controls .selector.stacked .selector-available select,
 .form-horizontal .form-group .controls .selector.stacked .selector-chosen select,
 .form-horizontal .form-group .controls .selector.stacked .selector-available input,
@@ -1619,14 +1375,12 @@ h3 {
   width: 100%;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003460}}
 .form-horizontal .form-group .controls .selector .selector-available,
 .form-horizontal .form-group .controls .selector .selector-chosen {
   width: 45%;
   min-width: 150px;
   max-width: 300px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003464}}
 .form-horizontal .form-group .controls .selector .selector-available select,
 .form-horizontal .form-group .controls .selector .selector-chosen select,
 .form-horizontal .form-group .controls .selector .selector-available input,
@@ -1634,13 +1388,11 @@ h3 {
   width: 100%;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003469}}
 .form-horizontal .form-group .controls .selector .selector-chooser {
   list-style: none;
   margin: 70px 15px 0 10px;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003474}}
 .form-horizontal .form-group .controls .selector .selector-chooser li a {
   font-size: 0px;
   line-height: inherit;
@@ -1650,51 +1402,41 @@ h3 {
   margin: 0;
   padding: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/variables\.less}line{font-family:\0000370}}
 .form-horizontal .form-group .controls .selector .selector-chooser li a:hover {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003479}}
 .form-horizontal .form-group .controls .selector .selector-chooser li a:after {
   content: "\e091";
   font-size: 14px;
   color: #0088cc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003484}}
 .form-horizontal .form-group .controls .selector .selector-chooser li a:hover {
   color: #999999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003492}}
 .form-horizontal .form-group .controls .selector .selector-chooser li:first-child a:after {
   content: "\e092";
   font-size: 14px;
   color: #0088cc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003510}}
 .form-horizontal .form-group .controls .selector.stacked .selector-chooser {
   list-style: none;
   margin: 5px 0 0 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003514}}
 .form-horizontal .form-group .controls .selector.stacked .selector-chooser li {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003516}}
 .form-horizontal .form-group .controls .selector.stacked .selector-chooser li a {
   background-position: -284px -92px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003520}}
 .form-horizontal .form-group .controls .selector.stacked .selector-chooser li:first-child a {
   background-position: -308px -92px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003528}}
 .form-horizontal .form-group .controls .selector .selector-available a:not(.active),
 .form-horizontal .form-group .controls .selector .selector-chosen a:not(.active) {
   color: #999999;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003533}}
 .form-horizontal .form-group .controls .selector .selector-available select {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -1706,12 +1448,10 @@ h3 {
   -moz-border-radius-topright: 0;
   border-top-right-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003536}}
 .form-horizontal .form-group .controls .selector .selector-filter {
   position: relative;
   margin-bottom: -1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003541}}
 .form-horizontal .form-group .controls .selector .selector-filter input {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -1723,7 +1463,6 @@ h3 {
   -moz-border-radius-bottomright: 0;
   border-bottom-right-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003544}}
 .form-horizontal .form-group .controls .selector .selector-filter label {
   position: absolute;
   right: 0;
@@ -1731,31 +1470,25 @@ h3 {
   margin-right: -10px;
   opacity: .2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003553}}
 .controls {
   /* Special styles for django auth app */
   /* File upload styles */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003555}}
 .controls #id_groups_from {
   min-height: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003556}}
 .controls #id_user_permissions_from {
   min-height: 184px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003560}}
 .controls .file-upload .clearable-file-input {
   display: inline-block;
   margin: 0 0 0 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003563}}
 .controls .file-upload .clearable-file-input input {
   margin: 5px 7px 0 0;
   vertical-align: middle;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003568}}
 .controls .file-upload .clearable-file-input label {
   font-size: 11px;
   margin-top: 2px;
@@ -1763,102 +1496,82 @@ h3 {
   display: inline-block;
   color: #999999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003574}}
 .controls .file-upload .clearable-file-input label:hover {
   color: #b94a48;
 }
 /* SELECT2 OVERRIDE */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003583}}
 .select2-container-multi .select2-choices {
   padding: 3px 5px 3px 5px;
   border-radius: 3px;
   line-height: 1;
 }
 /* Set close on right size */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003592}}
 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 3px 20px 3px 5px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003596}}
 .select2-container-multi .select2-search-choice-close {
   top: 3px;
   left: auto !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003601}}
 .select2-search-choice .s2-size {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003605}}
 .select2-search-choice .s2-size em {
   font-style: normal;
   color: grey;
   font-size: 9px;
   text-shadow: 0 1px 0 #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003612}}
 .select2-container {
   padding-right: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003619}}
 .datetimeshortcuts {
   font-size: 11px;
   margin-left: 5px;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003623}}
 .datetimeshortcuts a:first-child {
   margin-right: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003626}}
 .datetimeshortcuts a:last-child {
   margin-left: -6px;
   margin-right: 10px;
 }
 /* Fix original date/time fields */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003633}}
 .vDateField,
 .vTimeField {
   width: auto;
   vertical-align: top;
 }
 /* DATETIME IMPROVEMENTS */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003643}}
 .suit-date {
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003645}}
 .suit-date .datetimeshortcuts {
   margin-left: 40px;
   color: #f6f7f8;
   vertical-align: baseline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003654}}
 .suit-date .datetimeshortcuts a {
   margin-top: 6px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003658}}
 .suit-date .datetimeshortcuts a:last-child {
   position: absolute;
   left: 104px;
   z-index: 2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003662}}
 .suit-date .datetimeshortcuts a:last-child img {
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003667}}
 .suit-date input {
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003669}}
 .suit-date input.vDateField {
   width: 84px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003672}}
 .suit-date input.vTimeField {
   width: 64px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003676}}
 .suit-date .add-on,
 .suit-date .input-group-addon {
   position: absolute;
@@ -1867,27 +1580,22 @@ h3 {
   display: inline;
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003686}}
 .suit-date.suit-time .add-on,
 .suit-date.suit-time .input-group-addon {
   left: 64px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003690}}
 .suit-date.suit-time .datetimeshortcuts a:last-child {
   position: absolute;
   left: 78px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003698}}
 select:not([size]):not([multiple]),
 select[size="0"],
 select[size="1"] {
   background-color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003702}}
 .autosize {
   max-height: 150px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003707}}
 .legend .description,
 h2 .description {
   font-weight: normal;
@@ -1898,19 +1606,15 @@ h2 .description {
   color: #999999;
 }
 /* Legend/H2 for suit_form_includes */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003718}}
 .form-horizontal .suit-tab {
   visibility: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003720}}
 .form-horizontal .suit-tab.show {
   visibility: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003723}}
 .form-horizontal .suit-tab.collapsed.hide {
   display: none !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003728}}
 .suit-tab > h2,
 .form-horizontal .suit-include > h2 {
   margin-top: -10px;
@@ -1918,32 +1622,26 @@ h2 .description {
   line-height: 36px;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003736}}
 .linked-select-link {
   font-size: 11px;
   margin-right: 5px;
 }
 /* StackedInline sortables */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003742}}
 .stacked-inline-sortable {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003744}}
 .stacked-inline-sortable :first-child {
   padding-right: 1px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003747}}
 .stacked-inline-sortable:nth-last-child(2) {
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/form\.less}line{font-family:\00003751}}
 .inline-group > div:first-of-type .stacked-inline-sortable .sortable-up,
 .inline-group > div:nth-last-child(3) .stacked-inline-sortable .sortable-down {
   opacity: .15 !important;
   cursor: default;
 }
 /* styles to normalize bootstrap3 to old bootstrap 2 behaviour */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\000031}}
 .box,
 .well {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
@@ -1966,18 +1664,15 @@ h2 .description {
   padding: 10px 12px;
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\000038}}
 .menu-box {
   margin: 0 0 10px 0;
   padding: 5px 0;
   background-color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000312}}
 .menu-box li {
   list-style: none;
   line-height: 18px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000315}}
 .menu-box li a {
   text-decoration: none;
   line-height: 18px;
@@ -1986,11 +1681,9 @@ h2 .description {
   color: #666;
   border-bottom: 1px solid #ededed;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000322}}
 .menu-box li a:hover {
   background-color: #f6f7f8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000324}}
 .menu-box li a:hover:first-child {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -2002,7 +1695,6 @@ h2 .description {
   -moz-border-radius-topright: 3px;
   border-top-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000327}}
 .menu-box li a:hover:last-child {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -2014,11 +1706,9 @@ h2 .description {
   -moz-border-radius-bottomright: 3px;
   border-bottom-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000331}}
 .menu-box li a i {
   margin-right: 7px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000335}}
 .menu-box li.active a {
   background-color: #5295b0;
   background-repeat: no-repeat;
@@ -2031,42 +1721,34 @@ h2 .description {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#83b3c3', EndColorStr='#5295b0', GradientType=0))";
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000339}}
 .menu-box li:last-child a {
   border-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000344}}
 .menu-box.menu-box-compact li a {
   padding-top: 2px;
   padding-bottom: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000350}}
 .save-box {
   text-align: center;
   margin-bottom: 20px;
   padding: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000354}}
 .save-box .btn {
   width: 150px;
   margin-bottom: 10px;
   white-space: pre-wrap;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000361}}
 .save-box .btn.btn-high {
   width: 150px;
   min-height: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/box\.less}line{font-family:\0000367}}
 .save-box a.text-error:hover {
   color: white;
   background-color: #b94a48;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/login\.less}line{font-family:\000032}}
 .login #wrap {
   background: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/login\.less}line{font-family:\000035}}
 .login #content-main {
   margin: 0;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
@@ -2083,7 +1765,6 @@ h2 .description {
   margin-top: -100px;
   /* Half the height of the DIV tag */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/login\.less}line{font-family:\0000321}}
 .login #content-main h1 {
   font-size: 14px;
   font-weight: normal;
@@ -2110,20 +1791,16 @@ h2 .description {
   -moz-border-radius-topright: 3px;
   border-top-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/login\.less}line{font-family:\0000330}}
 .login #content-main h1 i {
   margin-right: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/login\.less}line{font-family:\0000334}}
 .login #content-main form {
   margin: 15px 15px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/login\.less}line{font-family:\0000336}}
 .login #content-main form input[type=text],
 .login #content-main form input[type=password] {
   width: 90%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/login\.less}line{font-family:\0000340}}
 .login #content-main .submit-row {
   background: #f6f7f8;
   margin: 10px -15px 0;
@@ -2140,21 +1817,17 @@ h2 .description {
   -moz-border-radius-bottomright: 3px;
   border-bottom-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/login\.less}line{font-family:\0000348}}
 .login #content-main .form-group {
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\000031}}
 .left-nav {
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\000033}}
 .left-nav > ul {
   list-style: none;
   margin: 0;
   padding: 5px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\000038}}
 .left-nav > ul > li > a {
   border-bottom: 1px solid #ededed;
   display: block;
@@ -2163,12 +1836,10 @@ h2 .description {
   text-decoration: none;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000315}}
 .left-nav > ul > li > a i {
   margin-right: 10px;
   opacity: .8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000319}}
 .left-nav > ul > li > a em {
   float: right;
   font-style: normal;
@@ -2177,11 +1848,9 @@ h2 .description {
   position: absolute;
   right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000328}}
 .left-nav > ul > li:last-child > a {
   border: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000332}}
 .left-nav > ul > li.active > a {
   color: #fff;
   text-shadow: 0 1px #4f7f92;
@@ -2196,14 +1865,12 @@ h2 .description {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#83b3c3', EndColorStr='#5295b0', GradientType=0))";
   border-bottom-color: #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000337}}
 .left-nav > ul > li.active > a i {
   /* bs3 only requires color change of type */
   color: #fff;
   /*background-image: url(../img/glyphicons-halflings-white-shadow.png);*/
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000343}}
 .left-nav > ul > li.active > a:after {
   content: url('../img/cc_active_nav.png');
   display: inline-block;
@@ -2211,18 +1878,15 @@ h2 .description {
   float: right;
   margin-top: -5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000351}}
 .left-nav > ul > li.active ul {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000355}}
 .left-nav > ul > li.separator,
 .left-nav > ul > li.separator:hover {
   background: #f0f0f0 !important;
   height: 7px;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000360}}
 .left-nav > ul > li ul {
   display: none;
   border-bottom: 1px solid #ededed;
@@ -2234,42 +1898,34 @@ h2 .description {
   box-shadow: inset 0px 3px 3px -2px rgba(0, 0, 0, 0.2);
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000369}}
 .left-nav > ul > li ul li a {
   display: block;
   padding: 3px 0 4px 27px;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000373}}
 .left-nav > ul > li ul li a:hover {
   background-color: #f1f1f1;
   text-shadow: 0 1px #ffffff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000377}}
 .left-nav > ul > li ul li a.add {
   padding: 4px 0 4px 13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000379}}
 .left-nav > ul > li ul li a.add i {
   margin-right: 5px;
   opacity: .7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000384}}
 .left-nav > ul > li ul li a i {
   margin-left: -20px;
   margin-right: 5px;
   opacity: .7;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000391}}
 .left-nav > ul > li ul li.active a {
   color: #333;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000397}}
 .left-nav > ul > li:not(.active):hover {
   background: #f5f5f5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\0000399}}
 .left-nav > ul > li:not(.active):hover > ul {
   display: block;
   position: absolute;
@@ -2298,26 +1954,21 @@ h2 .description {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\00003110}}
 .left-nav > ul > li:not(.active):hover > ul > li {
   border-bottom: 1px solid #e5e5e5;
   border-top: 1px solid white;
   background-color: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\00003114}}
 .left-nav > ul > li:not(.active):hover > ul > li a {
   padding: 3px 25px 3px 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\00003119}}
 .left-nav > ul > li:not(.active):hover > ul > li:hover {
   border-bottom: 1px solid #f1f1f1;
   border-top: 1px solid #f1f1f1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\00003123}}
 .left-nav > ul > li:not(.active):hover > ul > li:first-child {
   border-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\00003125}}
 .left-nav > ul > li:not(.active):hover > ul > li:first-child a {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -2330,11 +1981,9 @@ h2 .description {
   border-top-right-radius: 3px;
   padding-top: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\00003130}}
 .left-nav > ul > li:not(.active):hover > ul > li:last-child {
   border-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/left-nav\.less}line{font-family:\00003132}}
 .left-nav > ul > li:not(.active):hover > ul > li:last-child a {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -2348,7 +1997,6 @@ h2 .description {
   padding-bottom: 4px;
 }
 /* CALENDARS & CLOCKS */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\000033}}
 .calendarbox,
 .clockbox {
   margin: 5px auto;
@@ -2375,7 +2023,6 @@ h2 .description {
   -moz-border-radius-bottomright: 3px;
   border-bottom-right-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000313}}
 .calendarbox h2,
 .clockbox h2,
 .calendarbox caption,
@@ -2407,16 +2054,13 @@ h2 .description {
   font-weight: bold;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000327}}
 .clockbox {
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000331}}
 .calendar {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000336}}
 .calendar table {
   margin: 0;
   padding: 0;
@@ -2424,7 +2068,6 @@ h2 .description {
   background: white;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000344}}
 .calendar th {
   font-size: 10px;
   color: #666;
@@ -2442,7 +2085,6 @@ h2 .description {
   border-bottom: 1px solid #ddd;
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000354}}
 .calendar td {
   font-size: 11px;
   text-align: center;
@@ -2450,20 +2092,16 @@ h2 .description {
   border-top: 1px solid #eee;
   border-bottom: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000362}}
 .calendar td.selected a {
   background: #C9DBED;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000366}}
 .calendar td.nonday {
   background: #efefef;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000370}}
 .calendar td.today a {
   background: #ffffaa;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000375}}
 .calendar td a,
 .timelist a {
   display: block;
@@ -2471,7 +2109,6 @@ h2 .description {
   text-decoration: none;
   color: #444;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000382}}
 .calendar td a:hover,
 .timelist a:hover {
   background-color: #5295b0;
@@ -2486,13 +2123,11 @@ h2 .description {
   text-shadow: 0 1px #4f7f92;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000388}}
 .calendar td a:active,
 .timelist a:active {
   background: #5295b0;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\0000393}}
 .calendarnav {
   font-size: 10px;
   text-align: center;
@@ -2500,13 +2135,11 @@ h2 .description {
   margin: 0;
   padding: 1px 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003101}}
 .calendarnav a:link,
 #calendarnav a:visited,
 #calendarnav a:hover {
   color: #999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003105}}
 .calendar-shortcuts {
   background: white;
   font-size: 11px;
@@ -2515,12 +2148,10 @@ h2 .description {
   padding: 3px 0 4px;
   color: #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003112}}
 .calendar-shortcuts a {
   display: inline-block;
   padding: 2px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003118}}
 .calendarbox .calendarnav-previous,
 .calendarbox .calendarnav-next {
   display: block;
@@ -2541,12 +2172,10 @@ h2 .description {
   text-shadow: 0 1px #4f7f92;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003130}}
 .calendarnav-previous:hover,
 .calendarnav-next:hover {
   background: #5295b0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003134}}
 .calendarnav-previous {
   top: 0;
   left: 0;
@@ -2566,7 +2195,6 @@ h2 .description {
   -moz-border-radius-bottomright: 0;
   border-bottom-right-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003140}}
 .calendarnav-next {
   top: 0;
   right: 0;
@@ -2586,7 +2214,6 @@ h2 .description {
   -moz-border-radius-bottomright: 0;
   border-bottom-right-radius: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003146}}
 .calendar-cancel {
   margin: 0 !important;
   padding: 2px 0 !important;
@@ -2603,59 +2230,48 @@ h2 .description {
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
   border-top: 1px solid #ddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003159}}
 .calendar-cancel a {
   color: black;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003164}}
 ul.timelist,
 .timelist li {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/calendar\.less}line{font-family:\00003170}}
 .timelist a {
   padding: 2px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/datepicker\.less}line{font-family:\000032}}
 div .datepicker {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/datepicker\.less}line{font-family:\000036}}
 .datepicker th,
 .datepicker td {
   height: 16px !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/datepicker\.less}line{font-family:\000039}}
 .datepicker input.input-small {
   width: 70px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/datepicker\.less}line{font-family:\0000313}}
 .input-append.date .add-on i,
 .input-prepend.date .add-on i {
   width: 14px !important;
   height: 14px !important;
   display: inline-block !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/tabs\.less}line{font-family:\000031}}
 .nav-tabs-suit {
   list-style: none;
   margin: 0px 4px 15px 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/tabs\.less}line{font-family:\000034}}
 .nav-tabs-suit li {
   display: inline-block;
   float: none;
   vertical-align: bottom;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/tabs\.less}line{font-family:\000038}}
 .nav-tabs-suit li:first-child {
   margin-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/tabs\.less}line{font-family:\0000311}}
 .nav-tabs-suit li a {
   display: inline-block;
   padding: 8px 20px 7px;
@@ -2673,21 +2289,17 @@ div .datepicker {
   color: #08c;
   font-size: 13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/tabs\.less}line{font-family:\0000319}}
 .nav-tabs-suit li a:hover {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/tabs\.less}line{font-family:\0000322}}
 .nav-tabs-suit li a.error {
   color: #b94a48 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/tabs\.less}line{font-family:\0000326}}
 .nav-tabs-suit li a,
 .nav-tabs-suit li a:hover {
   background-color: #f6f7f8;
   border: 1px solid #ddd;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/tabs\.less}line{font-family:\0000331}}
 .nav-tabs-suit li.active a {
   font-weight: bold;
   color: #333333;
@@ -2696,63 +2308,50 @@ div .datepicker {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/tabs\.less}line{font-family:\0000337}}
 .nav-tabs-suit li.active a,
 .nav-tabs-suit li.active a:hover {
   text-decoration: none;
   background-color: #edeff1;
   border-bottom-color: #edeff1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/ui\/tabs\.less}line{font-family:\0000344}}
 .nav-tabs-suit:after,
 .nav-tabs-suit:before {
   display: inline;
   content: normal;
   clear: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000330}}
 body {
   background-color: #edeff1;
   min-width: 960px;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000337}}
 body.popup {
   min-width: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000342}}
 #wrap {
   background: url(../img/bg_left_white.gif) top left repeat-y;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000344}}
 .popup #wrap {
   background: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000349}}
 a {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000353}}
 a:hover {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000357}}
 a.icon {
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000358}}
 a.icon i {
   margin-right: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000362}}
 a.icon:last-child {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000367}}
 a.btn {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000373}}
 #content h1,
 #content h2,
 #content h3,
@@ -2760,46 +2359,37 @@ a.btn {
 #content alert {
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000379}}
 .italic-title {
   font-size: 17px;
   font-weight: normal;
   margin: 0 0 5px 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000386}}
 .inner-two-columns .inner-right-column {
   float: right;
   width: 180px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000389}}
 .inner-two-columns .inner-right-column.fixed {
   position: fixed;
-  right: 20px;
+  right: 30px;
   top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000395}}
 .inner-two-columns .inner-center-column {
   margin-right: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\0000397}}
 .inner-two-columns .inner-center-column .tab-content {
   overflow: inherit;
   margin-bottom: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003104}}
 .icon-alpha5 {
   opacity: 0.5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003107}}
 .icon-alpha75 {
   opacity: 0.75;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003110}}
 a:hover .icon-alpha5,
 a:hover .icon-alpha75 {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003114}}
 .input-icon {
   position: relative;
   opacity: 0.2;
@@ -2807,25 +2397,20 @@ a:hover .icon-alpha75 {
   margin-left: -25px;
   margin-right: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003124}}
 .dashboard #content #content-main {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003127}}
 .dashboard #content #content-related {
   margin-left: 20px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003130}}
 .dashboard #content #content-related .actionlist {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003138}}
 .colM h1 {
   font-size: 20px;
   margin: 0 0 30px 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003144}}
 h1,
 h2,
 h3,
@@ -2834,59 +2419,50 @@ h5,
 h6 {
   text-shadow: 0 1px rgba(255, 255, 255, 0.5);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003148}}
 h2 {
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
   margin: 0 0 0 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003155}}
 a.append-icon i {
   margin-left: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003160}}
 .content-title {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003163}}
 .popup .content-title {
   display: block;
   margin: 0 0 10px 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003168}}
 .errorlist {
   color: #b94a48;
+  list-style-type: none;
+  padding-left: 1px;
 }
 /* Column layout */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003174}}
 .suit-columns {
   padding-left: 200px;
   /* LC fullwidth */
   padding-right: 40px;
   /* RC fullwidth + CC padding */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003176}}
 .suit-columns .suit-column {
   position: relative;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003180}}
 .popup .suit-columns {
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003188}}
 #suit-center {
   padding: 20px;
   /* CC padding */
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003191}}
 .popup #suit-center {
   width: 94.9%;
   padding-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003196}}
 #suit-left {
   width: 200px;
   /* LC width */
@@ -2894,7 +2470,6 @@ a.append-icon i {
   /* LC fullwidth + CC padding */
   margin-left: -100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003202}}
 #suit-right {
   width: 130px;
   /* RC width */
@@ -2903,70 +2478,55 @@ a.append-icon i {
   margin-right: -190px;
   /* RC fullwidth + CC padding */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003208}}
 #push {
   clear: both;
 }
 /* styles to adapt bootstrap3 to old bootstrap 2 behaviour */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003217}}
 div.related-widget-wrapper {
   line-height: 1.5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003219}}
 div.related-widget-wrapper .checkbox {
   padding-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003224}}
 div.related-widget-wrapper.inline .checkbox {
   display: inline-flex;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003229}}
 div.related-widget-wrapper div.selector {
   display: inherit;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003234}}
 div.related-widget-wrapper p.selector-filter img {
   margin-right: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003241}}
 .inline .related-widget-wrapper .checkbox {
   display: inline-flex;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003246}}
 div.inline-group table input[type="checkbox"] {
   margin-top: 3px;
 }
 /* uls left margin */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003251}}
 .controls ul.radiolist {
   padding-left: 0;
 }
 /* todo how to make it work as the new li-inline */
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003261}}
 .search-container .btn,
 .actions .btn {
   padding: 3px 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/suit\.less}line{font-family:\00003273}}
 input#quick-search:focus {
   outline: 0;
 }
 /* Print styles */
 @media print {
-  @media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/print\.less}line{font-family:\000033}}
   html,
   body {
     -webkit-print-color-adjust: exact;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/print\.less}line{font-family:\000036}}
   a[href]:after {
     content: "" !important;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/print\.less}line{font-family:\000038}}
   select {
     -webkit-appearance: none;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/print\.less}line{font-family:\0000312}}
   #header,
   .left-column,
   #footer,
@@ -2977,20 +2537,16 @@ input#quick-search:focus {
   .add-row {
     display: none;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/print\.less}line{font-family:\0000317}}
   #wrap,
   body {
     background: transparent;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/print\.less}line{font-family:\0000321}}
   .suit-columns {
     padding-left: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/print\.less}line{font-family:\0000325}}
   .two-columns .center-column {
     margin: 0;
   }
-  @media -sass-debug-info{filename{font-family:file\:\/\/Y\:\/py_projects\/djalsur-meta\/django_suit\/suit\/static\/suit\/less\/print\.less}line{font-family:\0000329}}
   .inner-two-columns .inner-center-column {
     margin-right: 0;
   }

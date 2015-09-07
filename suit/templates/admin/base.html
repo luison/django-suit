@@ -12,7 +12,6 @@
   {% if 'SHOW_REQUIRED_ASTERISK'|suit_conf %}
   <style type="text/css">.required:after { content: '*'; margin: 0 0 0 5px; position: absolute; color: #ccc;}</style>
   {% endif %}
-    <!-- TODO: llevar abajo los JS -->
   <script type="text/javascript" src="{% static "admin/js/jquery.js" %}"></script>
   {% block blockbots %}
   <script src="{% static 'suit/bootstrap/js/bootstrap.min.js' %}"></script>
@@ -20,7 +19,6 @@
   <script type="text/javascript">var Suit = { $: $.noConflict() }; if (!$) $ = Suit.$; </script>
 
     <meta name="robots" content="NONE,NOARCHIVE"/>{% endblock %}
-
     {% block extrahead %}{% endblock %}
 </head>
 {% load i18n %}
