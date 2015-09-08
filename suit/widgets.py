@@ -52,6 +52,8 @@ class EnclosedInput(TextInput):
         self.prepend = prepend
         self.append = append
         # recover previous class attr and add bs3
+        if attrs is None:
+            attrs = {}
         attrs['class'] = '%s form-control' % attrs.get('class', '')
         super(EnclosedInput, self).__init__(attrs=attrs)
 

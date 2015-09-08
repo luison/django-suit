@@ -1311,9 +1311,6 @@ h3 {
 .form-horizontal .inline-related:not(:first-of-type) h3 {
   margin-top: 5px;
 }
-.form-horizontal .inline-related span {
-  display: inline-block;
-}
 .form-horizontal .inline-related span.delete input {
   margin: 0;
 }
@@ -2551,4 +2548,3 @@ input#quick-search:focus {
     margin-right: 0;
   }
 }
-/*# sourceMappingURL=suit.css.map */
