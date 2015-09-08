@@ -1,4 +1,5 @@
-from django.contrib.admin.widgets import AdminTimeWidget, AdminDateWidget, AdminTextInputWidget
+from django.contrib.admin.widgets import AdminTimeWidget, AdminDateWidget, AdminTextInputWidget, AdminIntegerFieldWidget, \
+    AdminTextareaWidget
 from django.forms import TextInput, Select, Textarea, CheckboxSelectMultiple
 from django.forms.widgets import ChoiceFieldRenderer, CheckboxChoiceInput
 from django.utils.safestring import mark_safe
@@ -8,6 +9,18 @@ from django.contrib.admin.templatetags.admin_static import static
 
 # todo eliminar, no debemos meter un -sm a todos
 DEFAULT_INPUT_SIZE = ''
+
+
+class SuitFormComponentMix(object):
+    def render(self, name, value, attrs=None):
+        final_attrs = {'class': 'form-control bs2-retro %s' % DEFAULT_INPUT_SIZE}
+        if attrs is not None:
+            final_attrs['class'] = ' '.join((attrs.get('class', ''), final_attrs['class']))
+            if attrs.get('class'):
+                del attrs['class']
+            final_attrs.update(attrs)
+        response = super(SuitFormComponentMix, self).render(name, value, final_attrs)
+        return response
 
 
 class NumberInput(TextInput):
@@ -92,7 +105,7 @@ class EnclosedInput(TextInput):
             '<div class="input-group form-inline">%s</div>' % output)
 
 
-class AutosizedTextarea(Textarea):
+class AutosizedTextarea(SuitFormComponentMix, Textarea):
     """
     Autosized Textarea - textarea height dynamically grows based on user input
     """
@@ -168,19 +181,11 @@ def _make_attrs(attrs, defaults=None, classes=None):
     return result
 
 
-class SuitFormComponentMix(object):
-    def render(self, name, value, attrs=None):
-        final_attrs = {'class': 'form-control bs2-retro %s' % DEFAULT_INPUT_SIZE}
-        if attrs is not None:
-            final_attrs['class'] = ' '.join((attrs.get('class', ''), final_attrs['class']))
-            if attrs.get('class'):
-                del attrs['class']
-            final_attrs.update(attrs)
-        response = super(SuitFormComponentMix, self).render(name, value, final_attrs)
-        return response
-
-
 class SuitTextInputWidget(SuitFormComponentMix, AdminTextInputWidget):
+    pass
+
+
+class SuitIntegerWidget(SuitFormComponentMix, AdminIntegerFieldWidget):
     pass
 
 
