@@ -1,4 +1,4 @@
-{% load suit_tags %}
+{% load suit_tags suit_forms %}
 <fieldset class="module aligned{{ fieldset.name|yesno:' with-legend, first' }} {{ fieldset.classes }}">
     {% if fieldset.name %}
         <h2 class="legend">{{ fieldset.name }}
@@ -20,7 +20,8 @@
             <div class="control-label">
                 {{ field.label_tag }}
             </div>
-            <div class="controls form-inline">
+
+            <div class="controls {% if not field.field.field.widget|isinstance:"django_suit.suit.widgets.SuitCheckboxSelectMultiple" or field.field.field.inline %}form-inline{% endif %}">
             {# if multi-fields and first field #}
             {% if not singlefield %}
               <div class="multi-field-box">
