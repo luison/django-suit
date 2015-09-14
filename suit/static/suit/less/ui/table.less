@@ -244,10 +244,15 @@
     }
 }
 
-@tr-selected-color: #FCF8E3;
+//@tr-selected-color: #FCF8E3;
+//duplicate?
 @tr-selected-color: #83B3C3;
 .table-striped.table-hover tbody {
     // Striped and selected and hover
+
+    & > tr.selected input {
+        color: @tr-selected-color
+    }
     &>tr.selected:hover {
         &>td, &>th {
             background-color: darken(@tr-selected-color, 6%);

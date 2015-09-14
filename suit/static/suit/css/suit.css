@@ -570,6 +570,10 @@ body {
 .table-hover tbody > tr.success:hover > th {
   background-color: #d0e9c6;
 }
+
+.table-striped.table-hover tbody > tr.selected input {
+  color: #83b3c3;
+}
 .table-striped.table-hover tbody > tr.selected:hover > td,
 .table-striped.table-hover tbody > tr.selected:hover > th {
   background-color: #6ea6b9;
