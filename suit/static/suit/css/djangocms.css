@@ -91,6 +91,7 @@
 #changelist #sitemap {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.07);
   /* Custom styles */
+
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -140,6 +141,7 @@
   -moz-border-radius-bottomright: 0;
   border-bottom-right-radius: 0;
   /* Override jstree style.css */
+
 }
 #changelist #sitemap ul.header li {
   margin: 0;
@@ -739,6 +741,7 @@ body.cms-page .plugin-holder-separator:last-of-type {
 ul.plugin-list {
   border-top: 1px solid #ededed;
   /* Reset */
+
 }
 ul.plugin-list li,
 ul.plugin-list li.active,
@@ -786,6 +789,7 @@ ul.plugin-list li {
         .drag, .drag:hover, &:hover span.drag {
             background-position: 0 -48px;
         }*/
+
 }
 ul.plugin-list li:hover {
   background: white;
@@ -1009,4 +1013,3 @@ body.plugin-change-form .plugin-preview img {
   height: 16px;
   background-image: url("../img/ajax-loader.gif");
 }
-/*# sourceMappingURL=djangocms.css.map */
