@@ -1,4 +1,8 @@
-from django.contrib.admin.options import FORMFIELD_FOR_DBFIELD_DEFAULTS
+from django.core.exceptions import ImproperlyConfigured
+try:
+    from django.contrib.admin.options import FORMFIELD_FOR_DBFIELD_DEFAULTS
+except ImproperlyConfigured:
+    pass
 from django.db import models
 from .widgets import SuitTextInputWidget, SuitIntegerWidget, AutosizedTextarea
 
