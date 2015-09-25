@@ -10,6 +10,9 @@ setup(
     packages=['suit', 'suit.templatetags'],
     zip_safe=False,
     include_package_data=True,
+    install_requires=[
+        'Django',
+    ]
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Django',
