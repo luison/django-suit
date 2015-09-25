@@ -98,7 +98,6 @@ html,
 body {
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
-
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -106,7 +105,6 @@ body {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by it's height */
-
   margin: 0 auto -60px;
 }
 /* Set the fixed height of the footer here */
@@ -846,11 +844,8 @@ h2.legend,
   -moz-border-radius-bottomright: 3px;
   border-bottom-right-radius: 3px;
   /* BS collapse override */
-
   /* Position attr change for collapsed */
-
   /* COLLAPSE LOGIC */
-
 }
 .form-horizontal fieldset.first,
 .popup .form-horizontal fieldset:first-of-type {
@@ -965,9 +960,7 @@ h2.legend,
   display: table-header-group;
   margin: 0;
   /* Some BS form global overrides */
-
   /* Inline forms fields */
-
 }
 .form-horizontal .form-group > div {
   display: table-row;
@@ -1423,7 +1416,7 @@ h3 {
 .form-horizontal .form-group .controls .selector .selector-chooser li:first-child a:after {
   content: "\e092";
   font-size: 14px;
-  color: #0088cc //position: absolute; //top: 0; //left: 9999px; //background-position: -260px -92px;;
+  color: #0088cc;
 }
 .form-horizontal .form-group .controls .selector.stacked .selector-chooser {
   list-style: none;
@@ -1479,9 +1472,7 @@ h3 {
 }
 .controls {
   /* Special styles for django auth app */
-
   /* File upload styles */
-
 }
 .controls #id_groups_from {
   min-height: 80px;
@@ -1765,17 +1756,14 @@ h2 .description {
   background: white;
   padding: 0;
   /* Position hor/ver center */
-
   position: absolute;
   width: 340px;
   left: 50%;
   top: 35%;
   margin-left: -170px;
   /* Half the width of the DIV tag */
-
   margin-top: -100px;
   /* Half the height of the DIV tag */
-
 }
 .login #content-main h1 {
   font-size: 14px;
@@ -1791,7 +1779,7 @@ h2 .description {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#83b3c3', EndColorStr='#5295b0', GradientType=0))";
   color: #fff;
   text-shadow: 0 1px #4f7f92;
-  padding: 0 15px;
+  padding: 7px 15px;
   margin: 0;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
@@ -1879,10 +1867,8 @@ h2 .description {
 }
 .left-nav > ul > li.active > a i {
   /* bs3 only requires color change of type */
-
   color: #fff;
   /*background-image: url(../img/glyphicons-halflings-white-shadow.png);*/
-
   opacity: 1;
 }
 .left-nav > ul > li.active > a:after {
@@ -2458,10 +2444,8 @@ a.append-icon i {
 .suit-columns {
   padding-left: 200px;
   /* LC fullwidth */
-
   padding-right: 40px;
   /* RC fullwidth + CC padding */
-
 }
 .suit-columns .suit-column {
   position: relative;
@@ -2473,7 +2457,6 @@ a.append-icon i {
 #suit-center {
   padding: 20px;
   /* CC padding */
-
   width: 100%;
 }
 .popup #suit-center {
@@ -2483,22 +2466,17 @@ a.append-icon i {
 #suit-left {
   width: 200px;
   /* LC width */
-
   right: 200px;
   /* LC fullwidth + CC padding */
-
   margin-left: -100%;
 }
 #suit-right {
   width: 130px;
   /* RC width */
-
   padding: 0 10px;
   /* RC padding */
-
   margin-right: -190px;
   /* RC fullwidth + CC padding */
-
 }
 #push {
   clear: both;

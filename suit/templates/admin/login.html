@@ -1,5 +1,5 @@
 {% extends "admin/base_site.html" %}
-{% load i18n admin_static suit_tags %}
+{% load i18n admin_static suit_tags bootstrap3 %}
 {% load url from suit_compat %}
 
 {% block extrastyle %}{{ block.super }}
@@ -41,11 +41,11 @@
 
             <form action="{{ app_path }}" method="post" id="login-form"><div class="hide">{% csrf_token %}</div>
                 <div class="form-row form-group{% if not form.this_is_the_login_form.errors and form.username.errors %} error{% endif %}">
-                    <label for="id_username" class="control-label required">{{ form.username.label }}:</label> {{ form.username }}
+                    <label for="id_username" class="control-label required">{{ form.username.label }}:</label> {% bootstrap_field form.username show_label=False %}
                   {% if not form.this_is_the_login_form.errors and form.username.errors %}<div class="help-block">{{ form.username.errors }}</div>{% endif %}
                 </div>
                 <div class="form-row form-group{% if not form.this_is_the_login_form.errors and form.password.errors %} error{% endif %}">
-                    <label for="id_password" class="control-label required">{% trans 'Password' %}:</label> {{ form.password }}
+                    <label for="id_password" class="control-label required">{% trans 'Password' %}:</label> {% bootstrap_field form.password show_label=False %}
                   {% if not form.this_is_the_login_form.errors and form.password.errors %}<div class="help-block">{{ form.password.errors }}</div>{% endif %}
                     <input type="hidden" name="this_is_the_login_form" value="1"/>
                     <input type="hidden" name="next" value="{{ next }}"/>
