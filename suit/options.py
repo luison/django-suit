@@ -1,5 +1,8 @@
 __author__ = 'nekmo'
-from django.core.exceptions import ImproperlyConfigured
+try:
+    from django.core.exceptions import ImproperlyConfigured
+except ImportError:
+    ImproperlyConfigured = ImportError
 try:
     from django.contrib.admin.options import FORMFIELD_FOR_DBFIELD_DEFAULTS
     from django.db import models
