@@ -1,3 +1,5 @@
+from django.conf import settings
+
 __author__ = 'nekmo'
 try:
     from django.core.exceptions import ImproperlyConfigured
@@ -12,5 +14,6 @@ except ImproperlyConfigured:
 else:
     FORMFIELD_FOR_DBFIELD_DEFAULTS[models.CharField] = {'widget': SuitTextInputWidget}
     FORMFIELD_FOR_DBFIELD_DEFAULTS[models.IntegerField] = {'widget': SuitIntegerWidget}
-    FORMFIELD_FOR_DBFIELD_DEFAULTS[models.TextField] = {'widget': AutosizedTextarea}
+    if 'mezzanine.core' not in settings.INSTALLED_APPS:
+        FORMFIELD_FOR_DBFIELD_DEFAULTS[models.TextField] = {'widget': AutosizedTextarea}
     # FORMFIELD_FOR_DBFIELD_DEFAULTS[models.ForeignKey] = {'widget': SuitSelectWidget}
