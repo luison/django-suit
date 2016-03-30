@@ -19,7 +19,14 @@
   <script type="text/javascript">var Suit = { $: $.noConflict() }; if (!$) $ = Suit.$; </script>
 
     <meta name="robots" content="NONE,NOARCHIVE"/>{% endblock %}
-    {% block extrahead %}{% endblock %}
+    {% block extrahead %}
+        <script type="text/javascript">
+            if(window.self != window.top){
+                document.write('<link rel="stylesheet" type="text/css" href="{%  static 'cms/css/djangocms-admin-frontend.css' %}"/>');
+            }
+
+        </script>
+    {% endblock %}
 </head>
 {% load i18n %}
 
