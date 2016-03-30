@@ -1,2 +1,6 @@
 VERSION = '0.2.14'
-from . import options
+
+try:
+    from . import options
+except ImportError:
+    pass
