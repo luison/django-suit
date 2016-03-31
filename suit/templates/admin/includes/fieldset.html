@@ -10,7 +10,7 @@
     {% with singlefield=line.fields|length_is:'1' %}
         <div class="form-group form-row{% if line.errors %} {{ singlefield|yesno:'has-error error,first-error' }} has-errors error {% endif %}{% for field in line %}{% if field.field.name %} field-{{ field.field.name }}{% endif %} {{ field.field.field.widget.attrs.rowclass }}{% endfor %}{{ singlefield|yesno:',multi-field-row' }}">
         {% for field in line %}
-            {% if not field.field.is_hidden %}
+{#            {% if not field.field.is_hidden %}#}
           {% spaceless %}
 
         {# write special control tags only for first multi field #}
@@ -76,7 +76,7 @@
         {% endif %}
 
           {% endspaceless %}
-        {% endif %}
+{#        {% endif %}#}
         {% endfor %}
 
       </div>
