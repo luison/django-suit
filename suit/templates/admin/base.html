@@ -23,7 +23,13 @@
         <script type="text/javascript">
             if(window.self != window.top){
                 document.write('<link rel="stylesheet" type="text/css" href="{%  static 'cms/css/djangocms-admin-frontend.css' %}"/>');
+                $(function(){
+                    // fix Suit
+                    $('.suit-columns').removeClass('suit-columns');
+                });
             }
+
+
 
         </script>
     {% endblock %}
