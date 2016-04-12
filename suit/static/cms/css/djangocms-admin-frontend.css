@@ -1,2 +1,9 @@
 #header,#footer,#suit-left,.breadcrumb,.breadcrumbs{display:none}.login #header{display:block}.selector .selector-available input,.selector .selector-chosen input{width:360px}form select:not([multiple]){max-width:240px}#wrap{background:none}.suit-columns{padding-left: 0px}.cms-admin-sideframe{margin-top:50px}
 
+.cms-admin-modal .inner-right-column{
+    display: none;
+}
+
+.cms-admin-modal .inner-two-columns .inner-center-column {
+     margin-right: unset !important;
+}
