@@ -20,7 +20,9 @@
 
     <meta name="robots" content="NONE,NOARCHIVE"/>{% endblock %}
     {% block extrahead %}
+        <link rel="stylesheet" type="text/css" href="{%  static 'cms/css/djangocms-admin.css' %}"/>
         <script type="text/javascript">
+
             if(window.self != window.top){
                 document.write('<link rel="stylesheet" type="text/css" href="{%  static 'cms/css/djangocms-admin-frontend.css' %}"/>');
                 $(function(){
