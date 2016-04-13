@@ -1,0 +1,24 @@
+{% load i18n cms_tags %}
+
+<div class="submit-row clearfix" {% if is_popup %}style="overflow: auto;"{% endif %}>
+    {% if show_save %}
+        <button type="submit" class="btn btn-lg btn-primary" name="_save">{% trans 'Save' %}</button>
+    {% endif %}
+<p class="deletelink-box">
+        {% if show_delete_link %}<a href="delete/" class="deletelink">{% trans "Delete" %}</a>{% endif %}
+        {% if basic_info or advanced_settings %}
+            <a href="{% cms_admin_url 'cms_page_change' object_id %}?language={{ language }}" class="cms-btn-group{% if advanced_settings %} cms-btn-active{% endif %}">{% trans "Basic Settings" %}</a>
+            <a href="{% cms_admin_url 'cms_page_advanced' object_id %}?language={{ language }}" class="cms-btn-group{% if basic_info %} cms-btn-active{% endif %}">{% trans "Advanced Settings" %}</a>
+        {% endif %}
+    </p>
+
+    {% if show_save_as_new %}
+        <button type="submit" name="_saveasnew" class="btn">{% trans 'Save as new' %}</button>
+    {%endif%}
+    {% if show_save_and_add_another %}
+        <button type="submit" name="_addanother" class="btn">{% trans 'Save and add another' %}</button>
+    {% endif %}
+    {% if show_save_and_continue %}
+        <button type="submit" name="_continue" class=" btn btn-high">{% trans 'Save and continue editing' %}</button>
+    {% endif %}
+</div>
