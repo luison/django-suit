@@ -2,7 +2,7 @@
     margin: 20px 20px 0 !important;
 }
 
-.cms-page form input {
+.cms-admin form input {
     color: #333;
     font-size: 12px;
     line-height: 12px;
@@ -13,7 +13,7 @@
     outline: none;
 }
 
-.cms-page form label {
+.cms-admin form label {
     display: block;
     float: none !important;
     color: #666 !important;
@@ -26,7 +26,7 @@
     margin-bottom: 5px;
 }
 
-.cms-page form select {
+.cms-admin form select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -46,20 +46,20 @@
 /*background-color: #fff;*/
 /*}*/
 
-.cms-page .module {
+.cms-admin .module {
     border: none;
     margin-bottom: 0;
     background: none !important;
 }
 
-.cms-page #page_form_lang_tabs input.selected, .cms-page #page_form_lang_tabs input.current,
-.cms-page .parler-language-tabs span.selected, .cms-page .parler-language-tabs span.current {
+.cms-admin #page_form_lang_tabs input.selected, .cms-admin #page_form_lang_tabs input.current,
+.cms-admin .parler-language-tabs span.selected, .cms-admin .parler-language-tabs span.current {
     color: #0bf !important;
     background: transparent !important;
     border-bottom: solid 3px #0bf !important;
 }
 
-.cms-page #page_form_lang_tabs input, .cms-page .parler-language-tabs span {
+.cms-admin #page_form_lang_tabs input, .cms-admin .parler-language-tabs span {
     color: #333 !important;
     font-weight: normal !important;
     text-transform: uppercase;
@@ -72,8 +72,8 @@
     box-shadow: none !important;
 }
 
-.cms-page input[type="email"], .cms-page form input[type="password"], .cms-page form input[type="number"], .cms-page form input[type="url"],
-.cms-page form select, .cms-page form textarea {
+.cms-admin input[type="email"], .cms-admin form input[type="password"], .cms-admin form input[type="number"], .cms-admin form input[type="url"],
+.cms-admin form select, .cms-admin form textarea {
     font-size: 12px;
     width: 100% !important;
     max-width: none !important;
@@ -82,7 +82,7 @@
     appearance: none;
 }
 
-.cms-page form input[type="checkbox"], .cms-page form input[type="radio"] {
+.cms-admin form input[type="checkbox"], .cms-admin form input[type="radio"] {
     position: relative;
     top: -1px;
     overflow: hidden;
@@ -95,7 +95,7 @@
     border: 0 !important;
 }
 
-.cms-page .aligned .vCheckboxLabel {
+.cms-admin .aligned .vCheckboxLabel {
     float: none !important;
     display: inline;
     padding-left: 4px;
