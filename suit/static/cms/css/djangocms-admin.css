@@ -100,3 +100,11 @@
     display: inline;
     padding-left: 4px;
 }
+
+.cms-admin #djDebugToolbar {
+    margin-top:100px;
+}
+
+.cms-admin .inner-two-columns .inner-right-column{
+    position: inherit;
+}
