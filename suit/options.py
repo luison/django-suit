@@ -14,6 +14,4 @@ except ImproperlyConfigured:
 else:
     FORMFIELD_FOR_DBFIELD_DEFAULTS[models.CharField] = {'widget': SuitTextInputWidget}
     FORMFIELD_FOR_DBFIELD_DEFAULTS[models.IntegerField] = {'widget': SuitIntegerWidget}
-    if 'mezzanine.core' not in settings.INSTALLED_APPS:
-        FORMFIELD_FOR_DBFIELD_DEFAULTS[models.TextField] = {'widget': AutosizedTextarea}
     # FORMFIELD_FOR_DBFIELD_DEFAULTS[models.ForeignKey] = {'widget': SuitSelectWidget}
