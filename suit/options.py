@@ -1,5 +1,7 @@
 from django.conf import settings
 
+from suit.widgets import SuitSplitDateTimeWidget, SuitDateWidget, SuitTimeWidget
+
 __author__ = 'nekmo'
 try:
     from django.core.exceptions import ImproperlyConfigured
@@ -14,4 +16,7 @@ except ImproperlyConfigured:
 else:
     FORMFIELD_FOR_DBFIELD_DEFAULTS[models.CharField] = {'widget': SuitTextInputWidget}
     FORMFIELD_FOR_DBFIELD_DEFAULTS[models.IntegerField] = {'widget': SuitIntegerWidget}
+    FORMFIELD_FOR_DBFIELD_DEFAULTS[models.DateTimeField] = {'widget': SuitSplitDateTimeWidget}
+    FORMFIELD_FOR_DBFIELD_DEFAULTS[models.DateField] = {'widget': SuitDateWidget}
+    FORMFIELD_FOR_DBFIELD_DEFAULTS[models.TimeField] = {'widget': SuitTimeWidget}
     # FORMFIELD_FOR_DBFIELD_DEFAULTS[models.ForeignKey] = {'widget': SuitSelectWidget}

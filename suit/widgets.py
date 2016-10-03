@@ -138,9 +138,12 @@ class SuitDateWidget(AdminDateWidget):
     def render(self, name, value, attrs=None):
         output = super(SuitDateWidget, self).render(name, value, attrs)
         return mark_safe(
-            '<div class="input-group suit-date">%s<span '
+            '<div class="input-group input-group-sm suit-date">%s<span '
             # 'class="input-group-addon"><i class="icon-calendar"></i></span></div>' %
-            'class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span></div>' %
+            'class="add-on input-group-addon">'
+            '<a href="javascript:DateTimeShortcuts.openCalendar(0);">'
+            '<i class="glyphicon glyphicon-calendar"></i>'
+            '</a></span></div>' %
             output)
 
 
@@ -153,8 +156,12 @@ class SuitTimeWidget(AdminTimeWidget):
     def render(self, name, value, attrs=None):
         output = super(SuitTimeWidget, self).render(name, value, attrs)
         return mark_safe(
-            '<div class="input-group suit-date suit-time">%s<span '
-            'class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span></div>' %
+            '<div class="input-group input-group-sm suit-date suit-time">%s<span '
+            'class="input-group-addon">'
+            '<a href="javascript:DateTimeShortcuts.openClock(0);">'
+            '<span class="glyphicon glyphicon-time"></span>'
+            '</a>'
+            '</span></div>' %
             output)
 
 
