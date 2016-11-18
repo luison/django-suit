@@ -4,12 +4,8 @@
     {% if show_save %}
         <button type="submit" class="btn btn-lg btn-primary" name="_save">{% trans 'Save' %}</button>
     {% endif %}
-<p class="deletelink-box">
+    <p class="deletelink-box">
         {% if show_delete_link %}<a href="delete/" class="deletelink">{% trans "Delete" %}</a>{% endif %}
-        {% if basic_info or advanced_settings %}
-            <a href="{% cms_admin_url 'cms_page_change' object_id %}?language={{ language }}" class="cms-btn-group{% if advanced_settings %} cms-btn-active{% endif %}">{% trans "Basic Settings" %}</a>
-            <a href="{% cms_admin_url 'cms_page_advanced' object_id %}?language={{ language }}" class="cms-btn-group{% if basic_info %} cms-btn-active{% endif %}">{% trans "Advanced Settings" %}</a>
-        {% endif %}
     </p>
 
     {% if show_save_as_new %}
@@ -22,3 +18,10 @@
         <button type="submit" name="_continue" class=" btn btn-high">{% trans 'Save and continue editing' %}</button>
     {% endif %}
 </div>
+
+{% if show_buttons %}
+<div class="submut-row clearfix" {% if is_popup %}style="overflow: auto;"{% endif %}>
+    <a href="{% cms_admin_url 'cms_page_change' object_id %}?language={{ language }}" class="btn btn-lg {% if basic_info_active %}btn-info{% else %}btn-default{% endif %}">{% trans "Basic Settings" %}</a>
+    <a href="{% cms_admin_url 'cms_page_advanced' object_id %}?language={{ language }}" class="btn btn-lg {% if advanced_settings_active %}btn-info{% else %}btn-default{% endif %}">{% trans "Advanced Settings" %}</a>
+</div>
+{% endif %}
