@@ -121,7 +121,7 @@ body {
     padding-right: 20px;
   }
 }
-.header {
+.header:not(th) {
   color: #d4d4d4;
   height: 45px;
   overflow: hidden;
@@ -136,65 +136,65 @@ body {
   filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#3f4345', EndColorStr='#373b3d', GradientType=1);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#3f4345', EndColorStr='#373b3d', GradientType=1))";
 }
-.header .header-content {
+.header:not(th) .header-content {
   float: left;
   height: 45px;
   padding: 7px 0 0 30px;
   line-height: normal;
   overflow: hidden;
 }
-.header .header-content.header-content-first {
+.header:not(th) .header-content.header-content-first {
   border-left: 1px solid #45494c;
   margin-right: 20px;
 }
-.header .header-content .time {
+.header:not(th) .header-content .time {
   font-weight: bold;
   color: white;
 }
-.header .header-content .header-column {
+.header:not(th) .header-content .header-column {
   float: left;
 }
-.header .header-content .header-column i {
+.header:not(th) .header-content .header-column i {
   margin-right: 10px;
 }
-.header #branding {
+.header:not(th) #branding {
   height: 45px;
   float: left;
   min-width: 200px;
   border-right: 1px solid #2f3334;
 }
-.header #branding h1 {
+.header:not(th) #branding h1 {
   color: white;
   font-size: 18px;
   margin: 13px 12px 0 13px;
   padding: 0;
   text-shadow: 0 -1px #121414;
 }
-.header #branding a {
+.header:not(th) #branding a {
   text-decoration: none;
 }
-.header #branding a:hover h1 {
+.header:not(th) #branding a:hover h1 {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
-.header a {
+.header:not(th) a {
   color: #92D1EE;
   text-decoration: none;
 }
-.header a:hover {
+.header:not(th) a:hover {
   text-decoration: underline;
 }
-.header a.grey {
+.header:not(th) a.grey {
   color: #d4d4d4;
 }
-.header #user-tools {
+.header:not(th) #user-tools {
   padding: 12px 20px 0 0;
   float: right;
 }
-.header #user-tools .user-links {
+.header:not(th) #user-tools .user-links {
   display: inline-block;
   margin-left: 15px;
 }
-.header #user-tools .separator {
+.header:not(th) #user-tools .separator {
   color: #999;
   display: inline-block;
   margin: 0 5px;
